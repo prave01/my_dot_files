@@ -1,0 +1,25 @@
+2025/06/17-18:05:25.451 4b58b Reusing MANIFEST /home/thorfinn/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_windsurf.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/17-18:05:25.452 4b58b Recovering log #31
+2025/06/17-18:05:25.452 4b58b Reusing old log /home/thorfinn/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_windsurf.com_0.indexeddb.leveldb/000031.log 
+2025/06/17-18:05:25.452 4b58b Delete type=2 #29
+2025/06/17-18:05:25.460 4b58d Level-0 table #36: started
+2025/06/17-18:05:25.461 4b58d Level-0 table #36: 6748 bytes OK
+2025/06/17-18:05:25.463 4b58d Delete type=0 #31
+2025/06/17-18:05:25.463 4b58d Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\x05' @ 957 : 1
+2025/06/17-18:05:25.463 4b58d Compacting 1@0 + 1@1 files
+2025/06/17-18:05:25.464 4b58d Generated table #37@0: 170 keys, 5288 bytes
+2025/06/17-18:05:25.465 4b58d Compacted 1@0 + 1@1 files => 5288 bytes
+2025/06/17-18:05:25.465 4b58d compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/17-18:05:25.466 4b58d Delete type=2 #36
+2025/06/17-18:05:25.466 4b58c Manual compaction at level-0 from '\x00\x0d\x00\x00\x05' @ 957 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/17-18:05:25.487 4b58b Level-0 table #39: started
+2025/06/17-18:05:25.488 4b58b Level-0 table #39: 1288 bytes OK
+2025/06/17-18:05:25.490 4b58b Delete type=0 #35
+2025/06/17-18:05:25.491 4b58b Delete type=2 #33
+2025/06/17-18:05:25.491 4b59b Manual compaction at level-0 from '\x00\x0e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0e\x00\x00\x05' @ 1026 : 1
+2025/06/17-18:05:25.491 4b59b Compacting 1@0 + 1@1 files
+2025/06/17-18:05:25.493 4b59b Generated table #40@0: 174 keys, 5242 bytes
+2025/06/17-18:05:25.493 4b59b Compacted 1@0 + 1@1 files => 5242 bytes
+2025/06/17-18:05:25.494 4b59b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/17-18:05:25.494 4b59b Delete type=2 #39
+2025/06/17-18:05:25.494 4b598 Manual compaction at level-0 from '\x00\x0e\x00\x00\x05' @ 1026 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,5 @@
+2025-06-24 11:50:21.354 [info] update#setState idle
+2025-06-24 11:50:51.359 [info] update#setState checking for updates
+2025-06-24 11:50:51.625 [info] update#setState available for download
+2025-06-24 11:53:00.865 [info] Extension host with pid 51980 exited with code: 0, signal: unknown.
+2025-06-24 12:12:31.888 [info] Extension host with pid 53409 exited with code: 0, signal: unknown.

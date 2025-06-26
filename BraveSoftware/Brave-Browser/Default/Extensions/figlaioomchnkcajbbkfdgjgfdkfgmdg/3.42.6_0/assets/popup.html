@@ -1,0 +1,199 @@
+<html>
+  <head>
+    <title>Weekday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Lexend", sans-serif;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        min-width: 200px;
+      }
+      .link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid #e2e2e2;
+      }
+      .new-tab {
+        visibility: hidden;
+        width: 20px;
+        margin-right: 12px;
+      }
+      .link > span {
+        width: max-content;
+        display: flex;
+        text-decoration: none;
+        padding: 8px 16px;
+        align-items: center;
+        gap: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        user-select: none;
+
+        span {
+          width: max-content;
+        }
+      }
+
+      .link:hover:not(.disabled) {
+        cursor: pointer;
+        background-color: #edf6f3;
+        color: #186750;
+        > * path {
+          stroke: #186750;
+        }
+        .new-tab {
+          visibility: visible;
+        }
+      }
+      .disabled {
+        cursor: not-allowed;
+        background-color: #dde4ed;
+      }
+      nav {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 10px 16px;
+        justify-content: space-between;
+        background-color: #f8f9fb;
+        > a {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          text-decoration: none;
+          cursor: pointer;
+          color: #000;
+        }
+        .close-icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+          cursor: pointer;
+          font-weight: 600;
+          transition: transform 0.2s ease;
+        }
+        .close-icon:hover {
+          path {
+            stroke: #186750;
+          }
+          transform: scale(1.2);
+        }
+      }
+    </style>
+    <script src="popup.js" type="module"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="https://weekday.works" target="_blank">
+        <img src="./svgs/weekday.svg" alt="weekday logo" />
+      </a>
+      <svg
+        width="34"
+        height="34"
+        viewBox="0 0 34 34"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        id="close-btn"
+        class="close-icon"
+      >
+        <path
+          d="M12.7573 21.2427L21.2426 12.7574"
+          stroke="#292D32"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M21.2426 21.2426L12.7573 12.7573"
+          stroke="#292D32"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </nav>
+    <div class="link" id="open-dashboard">
+      <span>
+        <svg
+          id="dashboard-icon"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+            stroke="#292D32"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M22 22L20 20"
+            stroke="#292D32"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <span id="open-dashboard-text">Search for jobs</span>
+      </span>
+      <img src="./images/new-tab.png" alt="search for jobs" class="new-tab" />
+    </div>
+
+    <div class="link" id="enable-AI-Apply">
+      <span>
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.389 5.21L16.799 8.02999C16.989 8.41999 17.499 8.78999 17.929 8.86999L20.479 9.28999C22.109 9.55999 22.489 10.74 21.319 11.92L19.329 13.91C18.999 14.24 18.809 14.89 18.919 15.36L19.489 17.82C19.939 19.76 18.899 20.52 17.189 19.5L14.799 18.08C14.369 17.82 13.649 17.82 13.219 18.08L10.829 19.5C9.11896 20.51 8.07897 19.76 8.52897 17.82L9.09898 15.36C9.20898 14.9 9.01898 14.25 8.68898 13.91L6.69899 11.92C5.52899 10.75 5.90898 9.56999 7.53898 9.28999L10.089 8.86999C10.519 8.79999 11.029 8.41999 11.219 8.02999L12.629 5.21C13.379 3.68 14.619 3.68 15.389 5.21Z"
+            stroke="#292D32"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8 5H2"
+            stroke="#292D32"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M5 19H2"
+            stroke="#292D32"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M3 12H2"
+            stroke="#292D32"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <span>AI apply</span>
+      </span>
+    </div>
+  </body>
+</html>

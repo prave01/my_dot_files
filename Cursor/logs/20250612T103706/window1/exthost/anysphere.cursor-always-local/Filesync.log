@@ -1,0 +1,393 @@
+2025-06-12 10:37:18.558 [error] Failed to check if file sync is enabled for user {}
+2025-06-12 10:37:18.558 [error] Failed to fetch fsConfig File sync is disabled
+2025-06-12 10:37:18.558 [error] Failed to fetch fsConfig File sync is disabled
+2025-06-12 10:37:18.558 [info] [registerEventListeners] Registering event listeners
+2025-06-12 10:37:19.799 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 10:37:20.033 [info] Fetched fsConfig in 232.33183999999892ms
+2025-06-12 10:37:20.033 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 10:37:22.172 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 10:37:22.907 [info] Fetched fsConfig in 734.7137029999994ms
+2025-06-12 10:37:22.907 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 10:37:22.908 [info] File sync enabled status: true
+2025-06-12 10:37:22.908 [info] Starting sync of visible tabs
+2025-06-12 10:37:22.953 [info] Starting sync of visible tabs
+2025-06-12 10:37:23.139 [info] Uploaded file scripts/init-db.js modelVersion=1 in 229.31539899999916ms
+2025-06-12 10:37:23.140 [info] Synced all visible tabs in 233.11849299999994ms
+2025-06-12 10:37:23.186 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 10:37:23.189 [info] Uploaded file scripts/init-db.js modelVersion=1 in 233.5772399999987ms
+2025-06-12 10:37:23.190 [info] Synced all visible tabs in 237.65344799999912ms
+2025-06-12 10:37:23.416 [info] Fetched fsConfig in 230.42327899999873ms
+2025-06-12 10:37:23.417 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 10:40:25.210 [info] Handled visible editors change in 1.2379500000097323ms
+2025-06-12 10:40:26.443 [info] Uploaded file .gitignore modelVersion=1 in 1017.06536399998ms
+2025-06-12 10:40:26.443 [info] Handled visible editors change in 1105.2844130000158ms
+2025-06-12 10:40:28.378 [info] Synced file .gitignore modelVersion=2 in 664.2700659999973ms
+2025-06-12 10:40:28.393 [info] Synced file .gitignore modelVersion=3 in 235.05529099999694ms
+2025-06-12 10:40:29.482 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 10:40:29.714 [info] Fetched fsConfig in 231.6302840000135ms
+2025-06-12 10:40:29.714 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 10:40:29.714 [info] File sync enabled status: true
+2025-06-12 10:40:29.714 [info] Starting sync of visible tabs
+2025-06-12 10:40:29.714 [info] Synced all visible tabs in 0.19271000000298955ms
+2025-06-12 10:40:52.746 [info] Synced file .gitignore modelVersion=39 in 264.90606199999456ms
+2025-06-12 10:40:53.138 [info] Synced file .gitignore modelVersion=41 in 231.77167700001155ms
+2025-06-12 10:40:54.602 [info] Synced file .gitignore modelVersion=42 in 228.4988219999941ms
+2025-06-12 10:40:58.649 [info] Synced file .gitignore modelVersion=43 in 338.8469530000002ms
+2025-06-12 10:51:13.326 [info] Handled visible editors change in 0.4503059999551624ms
+2025-06-12 10:51:14.617 [info] Uploaded file package.json modelVersion=1 in 1100.4267209999962ms
+2025-06-12 10:51:14.618 [info] Handled visible editors change in 1217.8629430000437ms
+2025-06-12 10:54:09.638 [info] Uploaded file vercel.json modelVersion=2 in 668.2513760000002ms
+2025-06-12 10:54:09.641 [info] Uploaded file vercel.json modelVersion=4 in 652.0100190000376ms
+2025-06-12 10:54:09.642 [info] Uploaded file vercel.json modelVersion=4 in 652.081249000039ms
+2025-06-12 10:54:09.645 [info] Uploaded file vercel.json modelVersion=2 in 722.5711160000646ms
+2025-06-12 10:54:10.292 [warning] Failed to sync changes for vercel.json, version=4, retrying (attempt 1) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-12 10:54:10.538 [warning] Failed to sync changes for vercel.json, version=4, retrying (attempt 2) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-12 10:54:10.806 [warning] Failed to sync changes for vercel.json, version=4, retrying (attempt 3) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-12 10:54:10.807 [error] Failed to sync changes for vercel.json, version=4, attempting full file sync [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-06-12 10:54:11.030 [info] Uploaded file vercel.json modelVersion=4 in 223.69051099999342ms
+2025-06-12 10:54:27.224 [info] Uploaded file server.js modelVersion=3 in 266.3339860000415ms
+2025-06-12 10:54:27.225 [info] Uploaded file server.js modelVersion=3 in 268.8749390000012ms
+2025-06-12 10:54:27.225 [info] Uploaded file server.js modelVersion=3 in 265.72754300001543ms
+2025-06-12 10:54:27.442 [info] Uploaded file server.js modelVersion=3 in 229.93842700007372ms
+2025-06-12 10:54:27.449 [info] Uploaded file server.js modelVersion=3 in 233.04366000008304ms
+2025-06-12 10:54:48.027 [info] Synced file server.js modelVersion=5 in 257.7949380001519ms
+2025-06-12 10:54:49.295 [info] Synced file server.js modelVersion=10 in 246.38918399997056ms
+2025-06-12 10:54:49.568 [info] Synced file server.js modelVersion=10 in 235.04514400009066ms
+2025-06-12 11:07:42.643 [info] Handled visible editors change in 1.2701169999781996ms
+2025-06-12 11:07:43.882 [info] Uploaded file .gitignore modelVersion=43 in 1125.8626639998984ms
+2025-06-12 11:07:43.882 [info] Handled visible editors change in 1203.1869769999757ms
+2025-06-12 11:07:52.639 [info] Synced file .gitignore modelVersion=44 in 266.3776709998492ms
+2025-06-12 11:07:52.886 [info] Synced file .gitignore modelVersion=45 in 245.6985369999893ms
+2025-06-12 11:07:53.589 [info] Synced file .gitignore modelVersion=46 in 284.0435540000908ms
+2025-06-12 11:07:54.938 [info] Synced file .gitignore modelVersion=50 in 317.1259509997908ms
+2025-06-12 11:07:55.387 [info] Synced file .gitignore modelVersion=53 in 270.5372010001447ms
+2025-06-12 11:07:55.990 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:07:56.290 [info] Fetched fsConfig in 299.10613199998625ms
+2025-06-12 11:07:56.290 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:07:56.290 [info] File sync enabled status: true
+2025-06-12 11:07:56.290 [info] Starting sync of visible tabs
+2025-06-12 11:07:56.290 [info] Synced all visible tabs in 0.27944099996238947ms
+2025-06-12 11:07:57.277 [info] Handled visible editors change in 0.30183999985456467ms
+2025-06-12 11:07:57.795 [info] Uploaded file vercel.json modelVersion=1 in 394.07210200000554ms
+2025-06-12 11:07:57.795 [info] Handled visible editors change in 468.56428999989294ms
+2025-06-12 11:08:25.393 [info] Synced file vercel.json modelVersion=3 in 231.4016319999937ms
+2025-06-12 11:08:31.006 [info] Synced file vercel.json modelVersion=4 in 272.84779499983415ms
+2025-06-12 11:10:34.811 [info] Handled visible editors change in 0.7922039998229593ms
+2025-06-12 11:10:36.018 [info] Uploaded file server.js modelVersion=1 in 915.2475570000242ms
+2025-06-12 11:10:36.018 [info] Handled visible editors change in 1122.594242000021ms
+2025-06-12 11:14:57.260 [info] Synced file server.js modelVersion=2 in 786.0622459999286ms
+2025-06-12 11:14:57.262 [info] Synced file server.js modelVersion=3 in 273.82554899994284ms
+2025-06-12 11:14:58.043 [info] Synced file server.js modelVersion=4 in 368.1650299998ms
+2025-06-12 11:15:00.434 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:15:00.663 [info] Fetched fsConfig in 229.15124699985608ms
+2025-06-12 11:15:00.663 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:15:00.664 [info] File sync enabled status: true
+2025-06-12 11:15:00.664 [info] Starting sync of visible tabs
+2025-06-12 11:15:00.895 [info] Uploaded file server.js modelVersion=12 in 229.71054199989885ms
+2025-06-12 11:15:00.895 [info] Synced all visible tabs in 231.49136900017038ms
+2025-06-12 11:15:01.712 [info] Synced file server.js modelVersion=16 in 229.20147700002417ms
+2025-06-12 11:15:02.094 [info] Synced file server.js modelVersion=17 in 237.8919299999252ms
+2025-06-12 11:15:03.497 [info] Synced file server.js modelVersion=26 in 229.69469200028107ms
+2025-06-12 11:17:02.141 [info] Handled visible editors change in 0.9403940001502633ms
+2025-06-12 11:17:03.416 [info] Uploaded file vercel.json modelVersion=4 in 1126.9416339998133ms
+2025-06-12 11:17:03.416 [info] Handled visible editors change in 1236.601232000161ms
+2025-06-12 11:17:04.337 [info] Synced file vercel.json modelVersion=5 in 310.86169299995527ms
+2025-06-12 11:17:04.576 [info] Synced file vercel.json modelVersion=6 in 228.59514299966395ms
+2025-06-12 11:17:05.501 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:17:05.731 [info] Fetched fsConfig in 230.30165200028569ms
+2025-06-12 11:17:05.731 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:17:05.731 [info] File sync enabled status: true
+2025-06-12 11:17:05.731 [info] Starting sync of visible tabs
+2025-06-12 11:17:05.731 [info] Synced all visible tabs in 0.15915800025686622ms
+2025-06-12 11:17:33.731 [info] Synced file vercel.json modelVersion=8 in 282.10593800013885ms
+2025-06-12 11:17:34.055 [info] Synced file vercel.json modelVersion=11 in 245.38337299972773ms
+2025-06-12 11:17:34.348 [info] Synced file vercel.json modelVersion=14 in 241.3455629996024ms
+2025-06-12 11:17:46.864 [info] Synced file vercel.json modelVersion=15 in 252.4376729996875ms
+2025-06-12 11:17:48.232 [info] Handled visible editors change in 0.44674899987876415ms
+2025-06-12 11:17:48.624 [info] Uploaded file .gitignore modelVersion=53 in 266.9962490000762ms
+2025-06-12 11:17:48.624 [info] Handled visible editors change in 366.3456800002605ms
+2025-06-12 11:17:52.717 [info] Handled visible editors change in 0.42909500002861023ms
+2025-06-12 11:17:52.763 [info] Handled visible editors change in 1.1728619998320937ms
+2025-06-12 11:17:55.167 [info] Handled visible editors change in 0.5117199998348951ms
+2025-06-12 11:17:55.195 [info] Handled visible editors change in 0.8811139999888837ms
+2025-06-12 11:17:57.960 [info] Handled visible editors change in 0.4083569999784231ms
+2025-06-12 11:17:58.037 [info] Handled visible editors change in 0.31197600020095706ms
+2025-06-12 11:17:58.042 [info] Handled visible editors change in 0.9627679996192455ms
+2025-06-12 11:18:03.923 [info] Handled visible editors change in 0.8826569998636842ms
+2025-06-12 11:18:03.926 [info] Handled visible editors change in 0.5014510001055896ms
+2025-06-12 11:18:03.953 [info] Handled visible editors change in 0.6341699999757111ms
+2025-06-12 11:18:05.572 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:18:05.884 [info] Fetched fsConfig in 311.37595900008455ms
+2025-06-12 11:18:05.884 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:18:05.884 [info] File sync enabled status: true
+2025-06-12 11:18:05.884 [info] Starting sync of visible tabs
+2025-06-12 11:18:05.884 [info] Synced all visible tabs in 0.16348699992522597ms
+2025-06-12 11:19:46.557 [info] Handled visible editors change in 0.70771099999547ms
+2025-06-12 11:19:47.773 [info] Uploaded file script.js modelVersion=1 in 894.4763819999062ms
+2025-06-12 11:19:47.773 [info] Handled visible editors change in 1146.5924909999594ms
+2025-06-12 11:19:59.410 [info] Handled visible editors change in 0.6200459999963641ms
+2025-06-12 11:20:00.041 [info] Uploaded file routes/auth.js modelVersion=1 in 445.39003899972886ms
+2025-06-12 11:20:00.041 [info] Handled visible editors change in 536.30757800024ms
+2025-06-12 11:20:05.337 [info] Handled visible editors change in 0.6388509999960661ms
+2025-06-12 11:20:05.790 [info] Uploaded file middleware/auth.js modelVersion=1 in 294.752505000215ms
+2025-06-12 11:20:05.790 [info] Handled visible editors change in 375.217726000119ms
+2025-06-12 11:20:08.228 [info] Handled visible editors change in 0.2568729999475181ms
+2025-06-12 11:20:08.610 [info] Uploaded file server.js modelVersion=26 in 253.48426799988374ms
+2025-06-12 11:20:08.610 [info] Handled visible editors change in 332.03983199968934ms
+2025-06-12 11:21:16.347 [info] Synced file server.js modelVersion=27 in 1220.43156500021ms
+2025-06-12 11:21:22.898 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:21:23.205 [info] Fetched fsConfig in 307.0556210000068ms
+2025-06-12 11:21:23.205 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:21:23.205 [info] File sync enabled status: true
+2025-06-12 11:21:23.205 [info] Starting sync of visible tabs
+2025-06-12 11:21:23.205 [info] Synced all visible tabs in 0.1335020000115037ms
+2025-06-12 11:22:46.978 [info] Synced file server.js modelVersion=28 in 693.7229550001211ms
+2025-06-12 11:22:46.981 [info] Synced file server.js modelVersion=29 in 316.4167820001021ms
+2025-06-12 11:22:49.017 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:22:49.324 [info] Fetched fsConfig in 307.1167950001545ms
+2025-06-12 11:22:49.324 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:22:49.325 [info] File sync enabled status: true
+2025-06-12 11:22:49.325 [info] Starting sync of visible tabs
+2025-06-12 11:22:49.325 [info] Synced all visible tabs in 0.3026509997434914ms
+2025-06-12 11:22:50.874 [info] Synced file server.js modelVersion=35 in 228.82137000001967ms
+2025-06-12 11:22:55.791 [info] Synced file server.js modelVersion=37 in 229.39247900014743ms
+2025-06-12 11:22:56.826 [info] Synced file server.js modelVersion=41 in 254.04314399976283ms
+2025-06-12 11:22:57.346 [info] Synced file server.js modelVersion=42 in 259.0992290000431ms
+2025-06-12 11:22:58.221 [info] Synced file server.js modelVersion=47 in 225.7519449996762ms
+2025-06-12 11:22:59.144 [info] Synced file server.js modelVersion=52 in 224.02998699992895ms
+2025-06-12 11:22:59.897 [info] Synced file server.js modelVersion=53 in 241.04096600040793ms
+2025-06-12 11:23:01.212 [info] Synced file server.js modelVersion=59 in 230.24393600039184ms
+2025-06-12 11:23:02.588 [info] Synced file server.js modelVersion=61 in 243.69884900003672ms
+2025-06-12 11:23:02.856 [info] Synced file server.js modelVersion=62 in 225.483319000341ms
+2025-06-12 11:23:03.368 [info] Synced file server.js modelVersion=64 in 224.7769570001401ms
+2025-06-12 11:23:03.807 [info] Synced file server.js modelVersion=65 in 227.34482900006697ms
+2025-06-12 11:23:04.857 [info] Synced file server.js modelVersion=67 in 222.77805799990892ms
+2025-06-12 11:24:30.785 [info] Handled visible editors change in 0.4525439999997616ms
+2025-06-12 11:24:30.877 [info] Handled visible editors change in 1.2272140001878142ms
+2025-06-12 11:24:32.282 [info] Handled visible editors change in 0.9357239999808371ms
+2025-06-12 11:24:32.327 [info] Handled visible editors change in 0.753440999891609ms
+2025-06-12 11:24:37.393 [info] Synced file server.js modelVersion=68 in 898.5552409999073ms
+2025-06-12 11:24:40.654 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:24:40.886 [info] Fetched fsConfig in 231.22918900009245ms
+2025-06-12 11:24:40.886 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:24:40.886 [info] File sync enabled status: true
+2025-06-12 11:24:40.886 [info] Starting sync of visible tabs
+2025-06-12 11:24:40.886 [info] Synced all visible tabs in 0.14093600027263165ms
+2025-06-12 11:25:06.131 [info] Handled visible editors change in 0.39415299985557795ms
+2025-06-12 11:25:06.648 [info] Uploaded file package.json modelVersion=1 in 365.27260800031945ms
+2025-06-12 11:25:06.648 [info] Handled visible editors change in 482.07476599980146ms
+2025-06-12 11:26:00.486 [info] Handled visible editors change in 0.3843949995934963ms
+2025-06-12 11:26:00.531 [info] Handled visible editors change in 0.8433810002170503ms
+2025-06-12 11:28:57.558 [info] Synced file server.js modelVersion=69 in 825.1203950000927ms
+2025-06-12 11:28:59.815 [info] Synced file server.js modelVersion=70 in 468.36958400020376ms
+2025-06-12 11:29:00.733 [info] Synced file server.js modelVersion=71 in 321.92506799986586ms
+2025-06-12 11:29:03.304 [info] Synced file server.js modelVersion=74 in 230.9851379999891ms
+2025-06-12 11:29:03.863 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:29:04.151 [info] Fetched fsConfig in 287.75821699993685ms
+2025-06-12 11:29:04.151 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:29:04.151 [info] File sync enabled status: true
+2025-06-12 11:29:04.151 [info] Starting sync of visible tabs
+2025-06-12 11:29:04.378 [info] Uploaded file server.js modelVersion=81 in 226.48335699969903ms
+2025-06-12 11:29:04.379 [info] Synced all visible tabs in 227.86776900012046ms
+2025-06-12 11:29:04.882 [info] Synced file server.js modelVersion=83 in 225.4079189999029ms
+2025-06-12 11:29:05.332 [info] Synced file server.js modelVersion=84 in 224.23489600000903ms
+2025-06-12 11:29:06.853 [info] Synced file server.js modelVersion=90 in 226.85588000016287ms
+2025-06-12 11:29:07.610 [info] Synced file server.js modelVersion=93 in 223.55667799990624ms
+2025-06-12 11:29:53.723 [info] Handled visible editors change in 0.5756659996695817ms
+2025-06-12 11:29:54.204 [info] Uploaded file scripts/init-db.js modelVersion=1 in 226.7341370000504ms
+2025-06-12 11:29:54.205 [info] Handled visible editors change in 444.3764650002122ms
+2025-06-12 11:30:00.957 [info] Synced file scripts/init-db.js modelVersion=2 in 225.84263599989936ms
+2025-06-12 11:30:02.006 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:30:02.240 [info] Fetched fsConfig in 233.86564899981022ms
+2025-06-12 11:30:02.240 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:30:02.241 [info] File sync enabled status: true
+2025-06-12 11:30:02.241 [info] Starting sync of visible tabs
+2025-06-12 11:30:02.492 [info] Synced file scripts/init-db.js modelVersion=3 in 259.671011000406ms
+2025-06-12 11:30:02.493 [info] Uploaded file scripts/init-db.js modelVersion=3 in 250.71034900005907ms
+2025-06-12 11:30:02.493 [info] Synced all visible tabs in 252.9205990000628ms
+2025-06-12 11:30:03.329 [info] Synced file scripts/init-db.js modelVersion=4 in 252.4221589998342ms
+2025-06-12 11:30:07.997 [info] Synced file scripts/init-db.js modelVersion=16 in 224.6478629997ms
+2025-06-12 11:30:08.275 [info] Synced file scripts/init-db.js modelVersion=17 in 225.62552700005472ms
+2025-06-12 11:30:09.215 [info] Synced file scripts/init-db.js modelVersion=23 in 226.6329779997468ms
+2025-06-12 11:30:10.014 [info] Synced file scripts/init-db.js modelVersion=26 in 222.0475800000131ms
+2025-06-12 11:31:00.469 [info] Handled visible editors change in 0.4645069995895028ms
+2025-06-12 11:31:00.850 [info] Uploaded file package.json modelVersion=1 in 238.51883199997246ms
+2025-06-12 11:31:00.850 [info] Handled visible editors change in 332.7708060001023ms
+2025-06-12 11:31:03.703 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:31:04.132 [info] Fetched fsConfig in 428.03699199995026ms
+2025-06-12 11:31:04.132 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:31:04.132 [info] File sync enabled status: true
+2025-06-12 11:31:04.132 [info] Starting sync of visible tabs
+2025-06-12 11:31:04.132 [info] Synced all visible tabs in 0.21690899971872568ms
+2025-06-12 11:31:22.230 [info] Handled visible editors change in 0.44156299997121096ms
+2025-06-12 11:31:22.276 [info] Handled visible editors change in 0.8529589995741844ms
+2025-06-12 11:31:24.894 [info] Synced file server.js modelVersion=94 in 227.2719010002911ms
+2025-06-12 11:31:25.527 [info] Synced file server.js modelVersion=95 in 223.0885910000652ms
+2025-06-12 11:32:07.000 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:32:07.307 [info] Fetched fsConfig in 307.1665019998327ms
+2025-06-12 11:32:07.307 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:32:07.307 [info] File sync enabled status: true
+2025-06-12 11:32:07.307 [info] Starting sync of visible tabs
+2025-06-12 11:32:07.307 [info] Synced all visible tabs in 0.1586799998767674ms
+2025-06-12 11:32:16.810 [info] Handled visible editors change in 0.5057939998805523ms
+2025-06-12 11:32:16.856 [info] Handled visible editors change in 0.5614689998328686ms
+2025-06-12 11:33:11.208 [info] Synced file package.json modelVersion=2 in 277.5225439998321ms
+2025-06-12 11:33:12.331 [info] Synced file package.json modelVersion=3 in 256.31730700004846ms
+2025-06-12 11:33:13.981 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:33:14.380 [info] Fetched fsConfig in 398.2669239998795ms
+2025-06-12 11:33:14.380 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:33:14.380 [info] File sync enabled status: true
+2025-06-12 11:33:14.380 [info] Starting sync of visible tabs
+2025-06-12 11:33:14.380 [info] Synced all visible tabs in 0.07533199992030859ms
+2025-06-12 11:34:50.868 [info] Synced file package.json modelVersion=4 in 747.1941780000925ms
+2025-06-12 11:34:51.256 [info] Synced file package.json modelVersion=7 in 257.1103909998201ms
+2025-06-12 11:34:52.792 [info] Synced file package.json modelVersion=8 in 342.1112640001811ms
+2025-06-12 11:34:53.417 [info] Synced file package.json modelVersion=9 in 274.92553599970415ms
+2025-06-12 11:34:53.638 [info] Synced file package.json modelVersion=10 in 227.75733500020579ms
+2025-06-12 11:34:54.074 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:34:54.300 [info] Fetched fsConfig in 226.0392249999568ms
+2025-06-12 11:34:54.300 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:34:54.300 [info] File sync enabled status: true
+2025-06-12 11:34:54.300 [info] Starting sync of visible tabs
+2025-06-12 11:34:54.300 [info] Synced all visible tabs in 0.08005099976435304ms
+2025-06-12 11:34:58.782 [info] Handled visible editors change in 0.2993140001781285ms
+2025-06-12 11:34:58.836 [info] Handled visible editors change in 0.9648400000296533ms
+2025-06-12 11:35:02.617 [info] Synced file server.js modelVersion=96 in 394.58135700039566ms
+2025-06-12 11:35:03.643 [info] Synced file server.js modelVersion=99 in 226.58602599985898ms
+2025-06-12 11:35:05.996 [info] Synced file server.js modelVersion=100 in 428.34745800029486ms
+2025-06-12 11:35:06.410 [info] Synced file server.js modelVersion=100 in 411.6387209999375ms
+2025-06-12 11:35:07.021 [info] Synced file server.js modelVersion=101 in 301.8517160001211ms
+2025-06-12 11:35:08.257 [info] Synced file server.js modelVersion=102 in 360.4116750000976ms
+2025-06-12 11:37:39.211 [info] Synced file server.js modelVersion=103 in 799.6195499999449ms
+2025-06-12 11:37:40.172 [info] Synced file server.js modelVersion=107 in 224.4539339998737ms
+2025-06-12 11:37:40.847 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:37:41.076 [info] Fetched fsConfig in 228.80591299990192ms
+2025-06-12 11:37:41.076 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:37:41.076 [info] File sync enabled status: true
+2025-06-12 11:37:41.076 [info] Starting sync of visible tabs
+2025-06-12 11:37:41.076 [info] Synced all visible tabs in 0.07144500035792589ms
+2025-06-12 11:39:01.896 [info] Synced file server.js modelVersion=109 in 698.0873430003412ms
+2025-06-12 11:39:01.897 [info] Synced file server.js modelVersion=109 in 287.24670400004834ms
+2025-06-12 11:39:04.617 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:39:04.846 [info] Fetched fsConfig in 229.04843399999663ms
+2025-06-12 11:39:04.846 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:39:04.846 [info] File sync enabled status: true
+2025-06-12 11:39:04.846 [info] Starting sync of visible tabs
+2025-06-12 11:39:04.846 [info] Synced all visible tabs in 0.08531100023537874ms
+2025-06-12 11:39:06.570 [info] Synced file server.js modelVersion=110 in 221.9107809998095ms
+2025-06-12 11:39:18.246 [info] Handled visible editors change in 0.3870099997147918ms
+2025-06-12 11:39:18.323 [info] Handled visible editors change in 0.31337099988013506ms
+2025-06-12 11:39:18.692 [info] Uploaded file .gitignore modelVersion=53 in 226.2376729999669ms
+2025-06-12 11:39:18.692 [info] Handled visible editors change in 362.9442129996605ms
+2025-06-12 11:39:25.914 [info] Handled visible editors change in 0.4209839999675751ms
+2025-06-12 11:39:25.921 [info] Handled visible editors change in 0.5517310001887381ms
+2025-06-12 11:39:25.951 [info] Handled visible editors change in 0.5254609999246895ms
+2025-06-12 11:39:39.314 [info] Synced file package.json modelVersion=11 in 226.49174299975857ms
+2025-06-12 11:39:39.683 [info] Synced file package.json modelVersion=11 in 225.57190800039098ms
+2025-06-12 11:41:12.364 [info] Synced file package.json modelVersion=12 in 716.6783060003072ms
+2025-06-12 11:41:22.672 [info] Synced file server.js modelVersion=111 in 225.78677699994296ms
+2025-06-12 11:41:23.005 [info] Synced file server.js modelVersion=111 in 226.9654609998688ms
+2025-06-12 11:41:32.253 [info] Synced file server.js modelVersion=112 in 464.68696100031957ms
+2025-06-12 11:43:13.381 [info] Handled visible editors change in 0.4593970002606511ms
+2025-06-12 11:43:13.420 [info] Handled visible editors change in 0.5119659998454154ms
+2025-06-12 11:43:48.746 [info] Handled visible editors change in 0.6702350000850856ms
+2025-06-12 11:43:49.675 [info] Uploaded file vercel.json modelVersion=15 in 814.8470999998972ms
+2025-06-12 11:43:49.675 [info] Handled visible editors change in 892.4709360003471ms
+2025-06-12 11:45:25.301 [info] Synced file vercel.json modelVersion=17 in 451.05431799963117ms
+2025-06-12 11:45:28.249 [info] Synced file vercel.json modelVersion=18 in 229.75125200022012ms
+2025-06-12 11:45:28.350 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:45:28.580 [info] Fetched fsConfig in 229.78968399995938ms
+2025-06-12 11:45:28.580 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:45:28.580 [info] File sync enabled status: true
+2025-06-12 11:45:28.580 [info] Starting sync of visible tabs
+2025-06-12 11:45:28.580 [info] Synced all visible tabs in 0.12514600018039346ms
+2025-06-12 11:45:30.444 [info] Synced file vercel.json modelVersion=19 in 227.21533800009638ms
+2025-06-12 11:45:31.292 [info] Synced file vercel.json modelVersion=20 in 225.04017599998042ms
+2025-06-12 11:47:20.374 [info] Handled visible editors change in 0.3816499998793006ms
+2025-06-12 11:47:21.250 [info] Uploaded file .vercel/output/builds.json modelVersion=1 in 691.6779749998823ms
+2025-06-12 11:47:21.250 [info] Handled visible editors change in 770.6201879996806ms
+2025-06-12 11:47:30.187 [info] Handled visible editors change in 0.41947200056165457ms
+2025-06-12 11:47:30.227 [info] Handled visible editors change in 0.5909049995243549ms
+2025-06-12 11:47:32.913 [info] Synced file vercel.json modelVersion=22 in 462.10300400014967ms
+2025-06-12 11:47:34.240 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:47:34.520 [info] Fetched fsConfig in 279.25001699943095ms
+2025-06-12 11:47:34.520 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:47:34.520 [info] File sync enabled status: true
+2025-06-12 11:47:34.520 [info] Starting sync of visible tabs
+2025-06-12 11:47:34.782 [info] Uploaded file vercel.json modelVersion=24 in 238.63206699956208ms
+2025-06-12 11:47:34.782 [info] Synced all visible tabs in 262.31332800071687ms
+2025-06-12 11:47:35.060 [info] Synced file vercel.json modelVersion=24 in 285.5200640000403ms
+2025-06-12 11:47:37.226 [info] Handled visible editors change in 0.38073800038546324ms
+2025-06-12 11:47:37.271 [info] Handled visible editors change in 0.6166930003091693ms
+2025-06-12 11:47:46.026 [info] Handled visible editors change in 0.45201299991458654ms
+2025-06-12 11:47:46.075 [info] Handled visible editors change in 0.820979000069201ms
+2025-06-12 11:47:57.335 [info] Synced file vercel.json modelVersion=31 in 246.497504000552ms
+2025-06-12 11:47:57.819 [info] Synced file vercel.json modelVersion=33 in 224.91401899978518ms
+2025-06-12 11:47:58.371 [info] Synced file vercel.json modelVersion=35 in 229.3760860003531ms
+2025-06-12 11:53:18.402 [info] Handled visible editors change in 0.6508479993790388ms
+2025-06-12 11:53:19.537 [info] Uploaded file server.js modelVersion=112 in 1000.6932970006019ms
+2025-06-12 11:53:19.537 [info] Handled visible editors change in 1093.9166919998825ms
+2025-06-12 11:53:24.577 [info] Handled visible editors change in 0.37299299985170364ms
+2025-06-12 11:53:25.067 [info] Uploaded file index.js modelVersion=1 in 274.1507620001212ms
+2025-06-12 11:53:25.067 [info] Handled visible editors change in 392.81334600038826ms
+2025-06-12 11:53:57.989 [info] Handled visible editors change in 0.39870200026780367ms
+2025-06-12 11:53:58.521 [info] Uploaded file .gitignore modelVersion=53 in 420.0575489997864ms
+2025-06-12 11:53:58.521 [info] Handled visible editors change in 493.06099099945277ms
+2025-06-12 11:59:02.311 [info] Handled visible editors change in 0.42852799966931343ms
+2025-06-12 11:59:03.194 [info] Uploaded file vercel.json modelVersion=35 in 755.9831170001999ms
+2025-06-12 11:59:03.195 [info] Handled visible editors change in 842.5994500005618ms
+2025-06-12 11:59:05.157 [info] Synced file vercel.json modelVersion=36 in 229.4182319995016ms
+2025-06-12 11:59:09.420 [info] Synced file vercel.json modelVersion=38 in 239.8373269997537ms
+2025-06-12 11:59:11.182 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 11:59:11.466 [info] Fetched fsConfig in 284.56001100037247ms
+2025-06-12 11:59:11.467 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 11:59:11.467 [info] File sync enabled status: true
+2025-06-12 11:59:11.467 [info] Starting sync of visible tabs
+2025-06-12 11:59:11.467 [info] Synced all visible tabs in 0.14635599963366985ms
+2025-06-12 11:59:13.501 [info] Synced file vercel.json modelVersion=40 in 225.51342600025237ms
+2025-06-12 11:59:32.335 [info] Handled visible editors change in 0.19551899936050177ms
+2025-06-12 11:59:33.198 [info] Uploaded file index.js modelVersion=1 in 569.690307000652ms
+2025-06-12 11:59:33.198 [info] Handled visible editors change in 818.2935690004379ms
+2025-06-12 11:59:37.186 [info] Handled visible editors change in 0.34364800062030554ms
+2025-06-12 11:59:37.805 [info] Uploaded file server.js modelVersion=112 in 396.33444099966437ms
+2025-06-12 11:59:37.805 [info] Handled visible editors change in 511.56175500061363ms
+2025-06-12 12:02:12.551 [info] Synced file vercel.json modelVersion=41 in 718.0817830003798ms
+2025-06-12 12:02:12.552 [info] Synced file vercel.json modelVersion=41 in 423.0298300003633ms
+2025-06-12 12:04:27.239 [info] Synced file server.js modelVersion=114 in 252.35665399953723ms
+2025-06-12 12:04:28.456 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 12:04:28.681 [info] Fetched fsConfig in 225.26051000040025ms
+2025-06-12 12:04:28.681 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 12:04:28.681 [info] File sync enabled status: true
+2025-06-12 12:04:28.681 [info] Starting sync of visible tabs
+2025-06-12 12:04:28.681 [info] Synced all visible tabs in 0.12494600005447865ms
+2025-06-12 12:07:35.814 [info] Uploaded file vercel.json modelVersion=41 in 739.091757000424ms
+2025-06-12 12:08:44.861 [info] Synced file server.js modelVersion=115 in 488.8195460001007ms
+2025-06-12 12:08:44.918 [info] Synced file server.js modelVersion=115 in 257.67690000031143ms
+2025-06-12 12:08:45.810 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 12:08:46.039 [info] Fetched fsConfig in 228.57890000008047ms
+2025-06-12 12:08:46.039 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 12:08:46.039 [info] File sync enabled status: true
+2025-06-12 12:08:46.039 [info] Starting sync of visible tabs
+2025-06-12 12:08:46.039 [info] Synced all visible tabs in 0.11797300074249506ms
+2025-06-12 12:09:16.629 [info] Handled visible editors change in 0.4392689997330308ms
+2025-06-12 12:09:17.192 [info] Uploaded file package.json modelVersion=12 in 421.6122169997543ms
+2025-06-12 12:09:17.192 [info] Handled visible editors change in 527.984267000109ms
+2025-06-12 12:10:06.020 [info] Handled visible editors change in 0.39153800066560507ms
+2025-06-12 12:10:06.054 [info] Handled visible editors change in 0.7447750000283122ms
+2025-06-12 12:10:55.909 [info] Synced file server.js modelVersion=116 in 387.22352699935436ms
+2025-06-12 12:10:55.912 [info] Synced file server.js modelVersion=116 in 656.3781789997593ms
+2025-06-12 12:10:57.619 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-06-12 12:10:57.856 [info] Fetched fsConfig in 236.62196199968457ms
+2025-06-12 12:10:57.856 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-06-12 12:10:57.857 [info] File sync enabled status: true
+2025-06-12 12:10:57.857 [info] Starting sync of visible tabs
+2025-06-12 12:10:57.857 [info] Synced all visible tabs in 0.16097399964928627ms
+2025-06-12 12:13:49.987 [info] Uploaded file vercel.json modelVersion=42 in 804.9997479999438ms
+2025-06-12 12:13:49.987 [info] Uploaded file vercel.json modelVersion=42 in 784.4557940000668ms
+2025-06-12 12:13:49.988 [info] Uploaded file vercel.json modelVersion=42 in 614.6316090002656ms
+2025-06-12 12:13:50.104 [info] Uploaded file vercel.json modelVersion=42 in 729.2400850001723ms
+2025-06-12 14:45:21.896 [info] Uploaded file script.js modelVersion=3 in 931.4152119997889ms
+2025-06-12 14:45:21.897 [info] Uploaded file script.js modelVersion=3 in 225.53726400062442ms
+2025-06-12 14:45:21.903 [info] Uploaded file script.js modelVersion=3 in 943.7794499993324ms
+2025-06-12 14:45:21.903 [info] Uploaded file script.js modelVersion=3 in 936.3656840007752ms
+2025-06-12 14:45:21.909 [info] Uploaded file script.js modelVersion=3 in 239.15544000081718ms

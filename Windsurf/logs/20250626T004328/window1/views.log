@@ -1,0 +1,14 @@
+2025-06-26 00:43:29.914 [info] Added views:windsurf.cascadePanel in windsurf.cascadeViewContainerId
+2025-06-26 00:43:29.914 [info] Added views:outline in workbench.view.explorer
+2025-06-26 00:43:29.914 [info] Added views:workbench.view.search in workbench.view.search
+2025-06-26 00:43:29.914 [info] Added views:workbench.scm in workbench.view.scm
+2025-06-26 00:43:29.914 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2025-06-26 00:43:29.914 [info] Added views:workbench.panel.output in workbench.panel.output
+2025-06-26 00:43:29.914 [info] Added views:terminal in terminal
+2025-06-26 00:43:29.914 [info] Added views:timeline in workbench.view.explorer
+2025-06-26 00:43:29.914 [info] Added views:workbench.explorer.emptyView in workbench.view.explorer
+2025-06-26 00:43:30.362 [info] Added views:windsurfDevContainers in workbench.view.remote
+2025-06-26 00:43:30.363 [info] Added views:windsurfSSHHosts in workbench.view.remote
+2025-06-26 00:43:30.793 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2025-06-26 00:43:30.822 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2025-06-26 00:43:32.647 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer

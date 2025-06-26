@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inventory App</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="errorBar" class="message-bar error"></div>
+  <div id="successBar" class="message-bar success"></div>
+  
+  <div id="loginPage">
+    <div class="section">
+      <h2>Login</h2>
+      <div id="loginForm">
+        <input tabindex="1" type="text" id="username" placeholder="Username" autocomplete="username">
+        <input tabindex="2" type="password" id="password" placeholder="Password" autocomplete="current-password">
+        <button tabindex="3" onclick="login()">Login</button>
+      </div>
+      <p id="loginMessage" class="message"></p>
+    </div>
+  </div>
+
+  <div id="appPage" class="hidden">
+    <header>
+      <div>
+        <div>Inventory Checker</div>
+        <div id="userInfo" style="font-size: 14px; opacity: 0.9;"></div>
+      </div>
+      <div>
+        <button tabindex="1" class="hamburger" onclick="toggleMenu()" aria-label="Toggle Menu">☰</button>
+      </div>
+    </header>
+
+    <div id="overlay" onclick="toggleMenu()"></div>
+
+    <div id="sideMenu" class="side-menu" role="navigation">
+      <button tabindex="2" id="addBtn" onclick="openAdd()" data-menu-item="0" style="display: none;">➕ Add Item</button>
+      <button tabindex="3" onclick="openUpdate()" data-menu-item="1">✏️ Update Item</button>
+      <button tabindex="4" id="updateQuantityBtn" onclick="openUpdateQuantity()" data-menu-item="2" style="display: none;">📊 Available Quantity</button>
+      <button tabindex="5" id="deleteBtn" onclick="openDelete()" data-menu-item="3" style="display: none;">🗑️ Delete Item</button>
+      <button tabindex="6" onclick="showSpares()" data-menu-item="4">📦 Spares List</button>
+      <button tabindex="7" onclick="downloadCSV()" data-menu-item="5">⬇️ Download CSV</button>
+      <button tabindex="8" id="historyBtn" onclick="openHistory()" data-menu-item="6" style="display: none;">📊 History & Analytics</button>
+      <button tabindex="9" id="userManagementBtn" onclick="openUserManagement()" data-menu-item="7" style="display: none;">👥 User Management</button>
+      <button tabindex="10" onclick="logout()" data-menu-item="8" style="background: #dc3545; margin-top: 20px;">🚪 Logout</button>
+    </div>
+
+    <div id="main" class="section">
+      <h3>Search Inventory</h3>
+      <input tabindex="10" id="searchInput" oninput="showSuggestions()" placeholder="Search item name">
+      <div id="suggestBox" class="suggestions"></div>
+      <div class="voice-search-container">
+        <button tabindex="11" id="voiceSearchBtn" onclick="startListening()">
+          <span id="voiceIcon">🎤</span> 
+          <span id="voiceText">Voice Search</span>
+        </button>
+        <div id="voiceStatus" class="voice-status"></div>
+      </div>
+      <button tabindex="12" onclick="searchItem()">Search</button>
+      <div id="searchResult" class="result"></div>
+    </div>
+
+    <div id="historyReport" class="history-report">
+      <div class="analytics-grid">
+        <div class="analytics-card">
+          <h4>📊 Monthly Summary</h4>
+          <div id="monthlySummary"></div>
+        </div>
+        
+        <div class="analytics-card">
+          <h4>📈 Item Consumption Chart</h4>
+          <canvas id="consumptionChart" width="400" height="300"></canvas>
+        </div>
+        
+        <div class="analytics-card">
+          <h4>👥 User Activity Chart</h4>
+          <canvas id="userActivityChart" width="400" height="300"></canvas>
+        </div>
+        
+        <div class="analytics-card">
+          <h4>🔝 Top Consumed Items</h4>
+          <div id="topItemsList"></div>
+        </div>
+      </div>
+      
+      <div class="detailed-history">
+        <h4>📋 Detailed Transaction History</h4>
+        <div id="transactionHistory"></div>
+      </div>
+    </div>
+
+    <button tabindex="50" class="back-button" onclick="goBack()">Back</button>
+  </div>
+
+  <!-- User Management Section -->
+  <div id="userManagementSection" class="section hidden">
+    <h3>User Management</h3>
+    
+    <div class="user-management-tabs">
+      <button tabindex="35" onclick="showAddUserForm()" class="tab-button active" id="addUserTab">Add User/Admin</button>
+      <button tabindex="36" onclick="showChangePasswordForm()" class="tab-button" id="changePasswordTab">Change Password</button>
+      <button tabindex="37" onclick="showUserList()" class="tab-button" id="userListTab">View Users</button>
+    </div>
+
+    <!-- Add User Form -->
+    <div id="addUserForm" class="user-form">
+      <h4>Add New User/Admin</h4>
+      <input tabindex="38" id="newUsername" placeholder="Username" autocomplete="off">
+      <input tabindex="39" id="newPassword" type="password" placeholder="Password" autocomplete="new-password">
+      <input tabindex="40" id="confirmPassword" type="password" placeholder="Confirm Password" autocomplete="new-password">
+      <select tabindex="41" id="newUserRole">
+        <option value="user">User</option>
+        <option value="admin">Admin</option>
+      </select>
+      <button tabindex="42" onclick="addNewUser()">Add User</button>
+      <div id="addUserMessage" class="message"></div>
+    </div>
+
+    <!-- Change Password Form -->
+    <div id="changePasswordForm" class="user-form hidden">
+      <h4>Change Password</h4>
+      <select tabindex="43" id="selectUser">
+        <option value="">Select User</option>
+      </select>
+      <input tabindex="44" id="newPasswordChange" type="password" placeholder="New Password" autocomplete="new-password">
+      <input tabindex="45" id="confirmPasswordChange" type="password" placeholder="Confirm New Password" autocomplete="new-password">
+      <button tabindex="46" onclick="changePassword()">Change Password</button>
+      <div id="changePasswordMessage" class="message"></div>
+    </div>
+
+    <!-- User List -->
+    <div id="userListForm" class="user-form hidden">
+      <h4>Current Users</h4>
+      <div id="usersList"></div>
+      <button tabindex="47" onclick="refreshUserList()" class="refresh-button">Refresh List</button>
+    </div>
+
+    <button tabindex="48" class="back-button" onclick="goBack()">Back</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 

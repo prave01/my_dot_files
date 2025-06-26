@@ -1,0 +1,8 @@
+2025-06-23 21:07:32.299 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/1.0.0/8dcbce782cede9bfd6df241348ca3f09210797f30ed7a5b6671dcf9849dba5a5/stable
+2025-06-23 21:07:32.299 [info] update#setState idle
+2025-06-23 21:07:44.630 [info] Extension host with pid 76321 exited with code: 0, signal: unknown.
+2025-06-23 21:07:44.666 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 76302]: crashed with code 15 and reason 'killed'
+2025-06-23 21:08:02.100 [info] update#setState checking for updates
+2025-06-23 21:08:02.393 [info] update#setState ready
+2025-06-23 21:38:13.336 [info] Extension host with pid 76499 exited with code: 0, signal: unknown.
+2025-06-23 21:38:13.527 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 76489]: crashed with code 15 and reason 'killed'

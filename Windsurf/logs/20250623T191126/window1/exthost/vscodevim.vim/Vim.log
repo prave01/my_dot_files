@@ -1,0 +1,140 @@
+2025-06-23 19:14:38.128 [info] /home/thorfinn/app/MongoAuthManager/package.json closed
+2025-06-23 19:14:38.136 [info] /home/thorfinn/app/MongoAuthManager/client/src/hooks/use-inventory.tsx closed
+2025-06-23 19:14:38.139 [info] /home/thorfinn/app/MongoAuthManager/client/src/components/inventory-section.tsx closed
+2025-06-23 19:14:38.146 [info] /home/thorfinn/app/MongoAuthManager/client/src/components/delete-confirm-dialog.tsx closed
+2025-06-23 19:14:38.150 [info] /home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx closed
+2025-06-23 19:15:49.598 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/package.json
+2025-06-23 19:16:07.629 [info] /home/thorfinn/app/MongoAuthManager/package.json closed
+2025-06-23 19:16:07.703 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/.replit
+2025-06-23 19:16:07.709 [info] /home/thorfinn/app/MongoAuthManager/package.json.git closed
+2025-06-23 19:16:41.530 [info] /home/thorfinn/app/MongoAuthManager/.replit closed
+2025-06-23 19:16:41.565 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/package.json
+2025-06-23 19:16:41.578 [info] /home/thorfinn/app/MongoAuthManager/.replit.git closed
+2025-06-23 19:18:46.712 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/drizzle.config.ts
+2025-06-23 19:18:46.943 [info] /home/thorfinn/app/MongoAuthManager/package.json.git closed
+2025-06-23 19:19:36.075 [info] /home/thorfinn/app/MongoAuthManager/drizzle.config.ts closed
+2025-06-23 19:19:36.137 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/models/inventory.ts
+2025-06-23 19:19:36.274 [info] /home/thorfinn/app/MongoAuthManager/drizzle.config.ts.git closed
+2025-06-23 19:30:12.977 [info] /home/thorfinn/app/MongoAuthManager/server/models/inventory.ts closed
+2025-06-23 19:30:12.997 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/package.json
+2025-06-23 19:30:13.030 [info] /home/thorfinn/app/MongoAuthManager/server/models/inventory.ts.git closed
+2025-06-23 19:34:15.632 [info] /home/thorfinn/app/MongoAuthManager/package.json.git closed
+2025-06-23 19:41:31.921 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/index.ts
+2025-06-23 19:41:31.952 [info] /home/thorfinn/app/MongoAuthManager/package.json.git closed
+2025-06-23 19:41:37.778 [info] /home/thorfinn/app/MongoAuthManager/server/index.ts closed
+2025-06-23 19:41:37.869 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/.gitignore
+2025-06-23 19:41:37.873 [info] /home/thorfinn/app/MongoAuthManager/server/index.ts.git closed
+2025-06-23 19:42:24.257 [info] /home/thorfinn/app/MongoAuthManager/.gitignore closed
+2025-06-23 19:42:24.293 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/postcss.config.js
+2025-06-23 19:42:24.301 [info] /home/thorfinn/app/MongoAuthManager/.gitignore.git closed
+2025-06-23 19:42:25.049 [info] /home/thorfinn/app/MongoAuthManager/postcss.config.js closed
+2025-06-23 19:42:25.123 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/tailwind.config.ts
+2025-06-23 19:42:25.160 [info] /home/thorfinn/app/MongoAuthManager/postcss.config.js.git closed
+2025-06-23 19:43:25.302 [info] /home/thorfinn/app/MongoAuthManager/tailwind.config.ts closed
+2025-06-23 19:43:25.357 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/drizzle.config.ts
+2025-06-23 19:43:25.372 [info] /home/thorfinn/app/MongoAuthManager/tailwind.config.ts.git closed
+2025-06-23 19:44:00.135 [info] /home/thorfinn/app/MongoAuthManager/drizzle.config.ts closed
+2025-06-23 19:44:00.176 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/models/inventory.ts
+2025-06-23 19:44:00.195 [info] /home/thorfinn/app/MongoAuthManager/drizzle.config.ts.git closed
+2025-06-23 19:44:14.410 [warning] OurSelectionsUpdate [0, 0; 0, 0] still around after 2052ms; removing now
+2025-06-23 19:44:33.026 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx
+2025-06-23 19:44:33.293 [info] /home/thorfinn/app/MongoAuthManager/server/models/inventory.ts.git closed
+2025-06-23 19:45:29.162 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/models/inventory.ts
+2025-06-23 19:45:29.177 [info] /home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx.git closed
+2025-06-23 19:45:31.079 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/models/transaction.ts
+2025-06-23 19:45:31.095 [info] /home/thorfinn/app/MongoAuthManager/server/models/inventory.ts.git closed
+2025-06-23 19:45:33.124 [info] /home/thorfinn/app/MongoAuthManager/server/models/transaction.ts closed
+2025-06-23 19:45:33.192 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/models/user.ts
+2025-06-23 19:45:33.206 [info] /home/thorfinn/app/MongoAuthManager/server/models/transaction.ts.git closed
+2025-06-23 19:45:55.756 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/shared/schema.ts
+2025-06-23 19:45:55.777 [info] /home/thorfinn/app/MongoAuthManager/server/models/user.ts.git closed
+2025-06-23 19:45:57.249 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/models/user.ts
+2025-06-23 19:45:57.261 [info] /home/thorfinn/app/MongoAuthManager/shared/schema.ts.git closed
+2025-06-23 19:45:57.968 [info] /home/thorfinn/app/MongoAuthManager/shared/schema.ts closed
+2025-06-23 19:45:58.022 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/models/transaction.ts
+2025-06-23 19:45:58.038 [info] /home/thorfinn/app/MongoAuthManager/server/models/user.ts.git closed
+2025-06-23 19:46:05.367 [warning] OurSelectionsUpdate [0, 0; 0, 0] still around after 1432ms; removing now
+2025-06-23 19:46:05.367 [warning] OurSelectionsUpdate [0, 0; 0, 0] still around after 1426ms; removing now
+2025-06-23 19:46:20.791 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/models/inventory.ts
+2025-06-23 19:46:20.804 [info] /home/thorfinn/app/MongoAuthManager/server/models/transaction.ts.git closed
+2025-06-23 19:46:23.322 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/routes.ts
+2025-06-23 19:46:23.360 [info] /home/thorfinn/app/MongoAuthManager/server/models/inventory.ts.git closed
+2025-06-23 19:46:24.436 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx
+2025-06-23 19:46:24.446 [info] /home/thorfinn/app/MongoAuthManager/server/routes.ts.git closed
+2025-06-23 19:46:25.611 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/client/src/components/inventory-section.tsx
+2025-06-23 19:46:25.633 [info] /home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx.git closed
+2025-06-23 19:46:27.173 [info] /home/thorfinn/app/MongoAuthManager/server/routes.ts closed
+2025-06-23 19:46:27.266 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/package-lock.json
+2025-06-23 19:46:27.287 [info] /home/thorfinn/app/MongoAuthManager/client/src/components/inventory-section.tsx.git closed
+2025-06-23 19:49:13.577 [info] /home/thorfinn/app/MongoAuthManager/package-lock.json closed
+2025-06-23 19:49:13.596 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/client/src/components/inventory-section.tsx
+2025-06-23 19:49:13.610 [info] /home/thorfinn/app/MongoAuthManager/package-lock.json.git closed
+2025-06-23 20:23:19.009 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx
+2025-06-23 20:23:19.022 [info] /home/thorfinn/app/MongoAuthManager/client/src/components/inventory-section.tsx.git closed
+2025-06-23 20:24:21.548 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/vite.ts
+2025-06-23 20:24:21.566 [info] /home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx.git closed
+2025-06-23 20:25:03.864 [info] /home/thorfinn/app/MongoAuthManager/vite.config.ts closed
+2025-06-23 20:37:15.072 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx
+2025-06-23 20:37:15.089 [info] /home/thorfinn/app/MongoAuthManager/server/vite.ts.git closed
+2025-06-23 20:43:18.772 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/vite.ts
+2025-06-23 20:43:18.794 [info] /home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx.git closed
+2025-06-23 20:43:21.097 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx
+2025-06-23 20:43:21.107 [info] /home/thorfinn/app/MongoAuthManager/server/vite.ts.git closed
+2025-06-23 20:43:22.241 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/server/vite.ts
+2025-06-23 20:43:22.251 [info] /home/thorfinn/app/MongoAuthManager/client/src/pages/inventory-app.tsx.git closed
+2025-06-23 20:43:29.084 [warning] OurSelectionsUpdate [1, 1; 1, 1] still around after 1263ms; removing now
+2025-06-23 20:43:29.084 [warning] OurSelectionsUpdate [0, 1; 0, 1] still around after 1261ms; removing now
+2025-06-23 20:45:22.265 [info] /home/thorfinn/app/MongoAuthManager/server/vite.ts.git closed
+2025-06-23 20:51:19.551 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/package.json
+2025-06-23 20:51:19.562 [info] /home/thorfinn/app/MongoAuthManager/server/vite.ts.git closed
+2025-06-23 20:55:33.747 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/client/index.html
+2025-06-23 20:55:33.750 [info] /home/thorfinn/app/MongoAuthManager/package.json.git closed
+2025-06-23 20:55:41.632 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/package.json
+2025-06-23 20:55:41.643 [info] /home/thorfinn/app/MongoAuthManager/client/index.html.git closed
+2025-06-23 20:56:27.525 [info] /home/thorfinn/app/MongoAuthManager/client/index.html closed
+2025-06-23 20:56:27.566 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/tsconfig.json
+2025-06-23 20:56:27.569 [info] /home/thorfinn/app/MongoAuthManager/package.json.git closed
+2025-06-23 20:58:46.948 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/package.json
+2025-06-23 20:58:46.957 [info] /home/thorfinn/app/MongoAuthManager/tsconfig.json.git closed
+2025-06-23 20:59:17.049 [info] /home/thorfinn/app/MongoAuthManager/package.json.git closed
+2025-06-23 21:37:38.903 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/vercel.json
+2025-06-23 21:37:38.911 [info] /home/thorfinn/app/MongoAuthManager/package.json.git closed
+2025-06-23 21:37:39.834 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/package.json
+2025-06-23 21:37:39.847 [info] /home/thorfinn/app/MongoAuthManager/vercel.json.git closed
+2025-06-23 21:39:00.235 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/vite.config.ts
+2025-06-23 21:39:00.251 [info] /home/thorfinn/app/MongoAuthManager/package.json.git closed
+2025-06-23 21:39:31.889 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/tsconfig.json
+2025-06-23 21:39:31.895 [info] /home/thorfinn/app/MongoAuthManager/vite.config.ts.git closed
+2025-06-23 21:39:35.030 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/vite.config.ts
+2025-06-23 21:39:35.044 [info] /home/thorfinn/app/MongoAuthManager/tsconfig.json.git closed
+2025-06-23 21:44:23.588 [info] /home/thorfinn/app/MongoAuthManager/backend/vercel.json closed
+2025-06-23 21:44:38.931 [info] /home/thorfinn/app/MongoAuthManager/backend/package.json closed
+2025-06-23 21:44:46.936 [info] /home/thorfinn/app/MongoAuthManager/backend/tsconfig.json closed
+2025-06-23 21:45:50.707 [info] /home/thorfinn/app/MongoAuthManager/backend/api/index.ts closed
+2025-06-23 21:48:54.865 [info] /home/thorfinn/app/MongoAuthManager/backend/api/index.ts closed
+2025-06-23 21:49:34.068 [info] /home/thorfinn/app/MongoAuthManager/backend/tsconfig.json closed
+2025-06-23 21:49:51.141 [info] /home/thorfinn/app/MongoAuthManager/backend/package.json closed
+2025-06-23 21:50:03.083 [info] /home/thorfinn/app/MongoAuthManager/backend/vercel.json closed
+2025-06-23 21:51:16.697 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/backend/package.json
+2025-06-23 21:51:16.706 [info] /home/thorfinn/app/MongoAuthManager/vite.config.ts.git closed
+2025-06-23 21:52:56.463 [info] /home/thorfinn/app/MongoAuthManager/vite.config.ts closed
+2025-06-23 21:52:56.514 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/client/index.html
+2025-06-23 21:54:27.291 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/package.json
+2025-06-23 21:54:27.305 [info] /home/thorfinn/app/MongoAuthManager/client/index.html.git closed
+2025-06-23 21:56:40.046 [info] Active editor: file:///home/thorfinn/app/MongoAuthManager/vercel.json
+2025-06-23 21:56:40.053 [info] /home/thorfinn/app/MongoAuthManager/package.json.git closed
+2025-06-23 21:59:17.094 [info] /91 closed
+2025-06-23 21:59:17.097 [info] /92 closed
+2025-06-23 21:59:17.106 [info] /93 closed
+2025-06-23 21:59:17.107 [info] /94 closed
+2025-06-23 21:59:18.203 [info] /95 closed
+2025-06-23 21:59:18.208 [info] /96 closed
+2025-06-23 21:59:18.225 [info] /97 closed
+2025-06-23 21:59:18.227 [info] /98 closed
+2025-06-23 21:59:19.749 [info] /99 closed
+2025-06-23 21:59:19.762 [info] /100 closed
+2025-06-23 21:59:19.764 [info] /101 closed
+2025-06-23 21:59:20.939 [info] /102 closed
+2025-06-23 21:59:20.944 [info] /103 closed
+2025-06-23 21:59:21.770 [info] /104 closed
+2025-06-23 22:01:49.079 [info] /105 closed

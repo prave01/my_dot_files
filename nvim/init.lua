@@ -10,8 +10,11 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
       { "\nPress any key to exit..." },
     }, true, {})
     vim.fn.getchar()
-    os.exit(1) end
+    os.exit(1)
+  end
 end
+-- Keybindings Import
+require("plugins.keybindings.tab_nav").setup()
 
 vim.opt.rtp:prepend(lazypath)
 
@@ -49,27 +52,63 @@ vim.g.clipboard = {
 --  UI AND MINIMAL TOOL CONFIGURATION
 -- -----------------------------------
 -- UI
-local theme = require("plugins.theme") --(_Catppuccin_😼, Lualine)
+local theme = require("plugins.theme")           --(_Catppuccin_😼, Lualine)
 -- Fuzzy Finder
-local telescope = require("plugins.telescope") --(_Telescope Fuzzy Finder_🧐)
+local telescope = require("plugins.telescope")   --(_Telescope Fuzzy Finder_🧐)
 -- Syntax Highlighting
 local treesitter = require("plugins.treesitter") --(_Treesitter_)
 -- Autoparis and Autotags
-local auto_tags = require("plugins.auto_tags") --(_Auto Close and Opens the tag_)
+local auto_tags = require("plugins.auto_tags")   --(_Auto Close and Opens the tag_)
 -- File Explorer
-local neo_tree = require("plugins.neo_tree") --(_Neotree file explorer_)
+local neo_tree = require("plugins.neo_tree")     --(_Neotree file explorer_)
 -- =====================================================================
 
+-- Nvim_lspconfig (LSP Installer and lpsconfig)
+local nvim_lsp = require("plugins.lsp.nvim_lsp") --(_Mason installs Language Servers and configure them)
+
+-- Linting and Formatting (Using null-ls)
+local null_ls = require("plugins.lsp.none_ls") --(_Format & lints all type of language files)
+
+-- Autocompletion
+local autocomplete = require("plugins.autocompletion") --(_nvim-cmp & lua-snip_)
+
+-- Lspsaga
+local lspsaga = require("plugins.lsp.lsp_saga") --(_Gives super useful lsp functions_)
+
+-- Lspkind
+local lsp_kind = require("plugins.lsp.lsp_kind") --(_Gives Vscode like pictograms_)
+
+-- Git-Config
+local git_config = require("plugins.git_conf") --(_Vscode like Git functionalities_)
+
+-- Buffer Line
+local buffer_line = require("plugins.buffer_line") --(_Buffer line and open-tabs_)
+
 require("lazy").setup({
-  
-  theme, -- Including Theme ✅
+
+  theme,     -- Including Theme ✅
 
   telescope, -- Including Telescope ✅
-  
+
   treesitter, -- Including Treesitter ✅
 
   auto_tags, -- Including Autotags/pairs ✅
-  
-  neo_tree, -- Including Neo-Tree ✅
 
+  neo_tree,  -- Including Neo-Tree ✅
+
+  -----------------------------------------------------
+
+  null_ls,     -- Including None-ls ✅
+
+  nvim_lsp,    -- Including Mason Installer ✅
+
+  autocomplete, -- Including Autocomplete ✅
+
+  lspsaga,     -- Including Autocomplete ✅
+
+  lsp_kind,    -- Including lsp_kind ✅
+
+  git_config,  -- Including Git-config ✅
+
+  buffer_line, -- Including Buffer-line ✅
 })

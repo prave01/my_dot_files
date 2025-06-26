@@ -1,0 +1,55 @@
+{
+   "action": {
+      "chrome_style": false,
+      "default_icon": {
+         "128": "assets/weekday/128.png",
+         "16": "assets/weekday/16.png",
+         "32": "assets/weekday/32.png",
+         "48": "assets/weekday/48.png",
+         "64": "assets/weekday/64.png"
+      },
+      "default_title": "Weekday - recommend friends, earn money"
+   },
+   "author": "Weekday",
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "js/contentScript.bundle.js" ],
+      "matches": [ "https://www.linkedin.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "js/referScript.bundle.js" ],
+      "matches": [ "https://www.linkedin.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/signUpScript.bundle.js" ],
+      "matches": [ "https://www.linkedin.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Weekday chrome extension to find most talented engineers in your LinkedIn network",
+   "externally_connectable": {
+      "matches": [ "https://jobs.weekday.works/*", "https://dream.weekday.works/*" ]
+   },
+   "host_permissions": [ "https://www.linkedin.com/*", "https://*/*", "http://*/*" ],
+   "icons": {
+      "128": "assets/weekday/128.png",
+      "16": "assets/weekday/16.png",
+      "32": "assets/weekday/32.png",
+      "48": "assets/weekday/48.png",
+      "64": "assets/weekday/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt0ccEuRTqGMUSJzPFOkSHjgX9m0R94jLVnUYAUwnyQUAvs+BCQ4B0vnAq15PgOZdPYTbGcFOIhIYlmwC3ZjyPLOU4/G2Ewa1WzIttRxx9YDm5C4MgW/5iy4CA54d6/U8lucR1Y/O5P6ioYzEICMEYhPVLv0XIEMonRe3lAdpU0wGkgen7PKFyDZERokVM2aOmPjGqJvuqt8zoYAXGHog8TAMRkiHoqgA4D9b7c2CAfzzwSvSUHlX3fMx70gj9dvNK+3Tz9wCMwOs8kekhPP7XHiLFAO7MGOuROJjuvK8Qt+o2tymRSTxvJdt3rkUfJ/ugotSf6HMUVoL/s62GLxF8wIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "Weekday ✨Use AI for job search",
+   "permissions": [ "cookies", "activeTab", "storage", "alarms", "scripting", "tabs" ],
+   "short_name": "Weekday",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.42.6",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "assets/images/*" ]
+   } ]
+}

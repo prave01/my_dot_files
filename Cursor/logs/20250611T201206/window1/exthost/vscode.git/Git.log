@@ -1,0 +1,39 @@
+2025-06-11 20:12:15.704 [info] [main] Log level: Info
+2025-06-11 20:12:15.704 [info] [main] Validating found git in: "git"
+2025-06-11 20:12:15.704 [info] [main] Using git "2.49.0" from "git"
+2025-06-11 20:12:15.704 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-11 20:12:15.704 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-11 20:12:15.704 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-06-11 20:12:15.704 [info] [Model][openRepository] Opened repository: /home/thorfinn/new
+2025-06-11 20:12:15.707 [info] > git config --get commit.template [17ms]
+2025-06-11 20:12:15.729 [info] > git rev-parse --show-toplevel [25ms]
+2025-06-11 20:12:15.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2025-06-11 20:12:15.779 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/thorfinn/new/.git/refs/remotes/origin/main'
+2025-06-11 20:12:15.780 [info] > git rev-parse --show-toplevel [31ms]
+2025-06-11 20:12:15.814 [info] > git rev-parse refs/remotes/origin/main [35ms]
+2025-06-11 20:12:15.888 [info] > git status -z -uall [37ms]
+2025-06-11 20:12:15.903 [info] > git rev-parse --show-toplevel [91ms]
+2025-06-11 20:12:15.929 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [48ms]
+2025-06-11 20:12:16.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2025-06-11 20:12:16.025 [info] > git rev-parse --show-toplevel [97ms]
+2025-06-11 20:12:16.028 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-11 20:12:17.440 [info] > git config --local branch.main.vscode-merge-base [1415ms]
+2025-06-11 20:12:17.461 [info] > git config --get commit.template [1457ms]
+2025-06-11 20:12:17.793 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [333ms]
+2025-06-11 20:12:17.925 [info] > git show --textconv :script.js [45ms]
+2025-06-11 20:12:17.926 [info] > git ls-files --stage -- /home/thorfinn/new/script.js [30ms]
+2025-06-11 20:12:17.947 [info] > git merge-base refs/heads/main refs/remotes/origin/main [136ms]
+2025-06-11 20:12:18.060 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [76ms]
+2025-06-11 20:12:18.061 [info] > git diff --name-status -z --diff-filter=ADMR 64240799f0c734a3b07c48268f2543ead923eae2...refs/remotes/origin/main [94ms]
+2025-06-11 20:12:18.061 [info] > git cat-file -s 45eb613612cf42716de8ae9f8a21617e1f7420af [115ms]
+2025-06-11 20:12:18.062 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [138ms]
+2025-06-11 20:12:18.116 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/thorfinn/new/.git/refs/remotes/origin/main'
+2025-06-11 20:12:18.167 [info] > git rev-parse refs/remotes/origin/main [51ms]
+2025-06-11 20:12:18.250 [info] > git status -z -uall [68ms]
+2025-06-11 20:12:18.250 [info] > git check-ignore -v -z --stdin [33ms]
+2025-06-11 20:12:18.251 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [53ms]
+2025-06-11 20:12:18.291 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [134ms]
+2025-06-11 20:12:25.585 [info] > git config --global user.name [5ms]
+2025-06-11 20:12:25.619 [info] > git config --global user.email [6ms]
+2025-06-11 20:12:25.619 [info] [main] Stored git author name in global state: prave01 <praveenthanikachalam408@gmail.com>
+2025-06-11 20:13:33.665 [info] > git blame --root --incremental 64240799f0c734a3b07c48268f2543ead923eae2 -- /home/thorfinn/new/script.js [8ms]

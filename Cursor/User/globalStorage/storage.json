@@ -1,0 +1,70 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "8dcbce782cede9bfd6df241348ca3f09210797f30ed7a5b6671dcf9849dba5a5",
+    "telemetry.macMachineId": "18e2d4f5f22017b0f0952d6244edf9d690491345013db6ea491278561569853c",
+    "telemetry.devDeviceId": "d6e130a7-d06c-4085-ac65-153ff26e58b3",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/thorfinn/app/MongoAuthManager"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1750174173044"
+            }
+        ]
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/thorfinn/new": "__default__profile__",
+            "file:///home/thorfinn/app/MongoAuthManager": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/thorfinn/app/MongoAuthManager",
+            "backupPath": "/home/thorfinn/.config/Cursor/Backups/7c15da93ac967bec4b8b0e2b6de875ec",
+            "uiState": {
+                "mode": 1,
+                "x": 7,
+                "y": 47,
+                "width": 1906,
+                "height": 1026,
+                "zoomLevel": 2
+            }
+        },
+        "openedWindows": []
+    },
+    "windowControlHeight": 50,
+    "theme": "vs-dark",
+    "themeBackground": "#1e2127",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#7b88a1",
+            "background": "#1e2127",
+            "editorBackground": "#1e2127",
+            "titleBarBackground": "#191c22",
+            "titleBarBorder": "rgba(255, 255, 255, 0.05)",
+            "activityBarBackground": "#191c22",
+            "sideBarBackground": "#191c22",
+            "sideBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarBackground": "#191c22",
+            "statusBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarNoFolderBackground": "#191c22"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
+}

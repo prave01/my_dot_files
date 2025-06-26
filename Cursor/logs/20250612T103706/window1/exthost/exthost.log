@@ -1,0 +1,123 @@
+2025-06-12 10:37:12.804 [info] Extension host with pid 5608 started
+2025-06-12 10:37:12.804 [info] Skipping acquiring lock for /home/thorfinn/.config/Cursor/User/workspaceStorage/f50458f4210982c2b2004ae98273f8ae.
+2025-06-12 10:37:12.949 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-12 10:37:12.987 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-06-12 10:37:13.488 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-12 10:37:13.495 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-06-12 10:37:13.552 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-12 10:37:13.690 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-12 10:37:14.278 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2117
+2025-06-12 10:37:14.922 [info] Eager extensions activated
+2025-06-12 10:37:15.102 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2117
+2025-06-12 10:37:15.631 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-06-12 10:37:15.727 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-06-12 10:37:15.813 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 10:37:16.296 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 10:37:16.404 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 10:37:17.271 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 10:37:17.391 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 10:37:17.740 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 10:37:17.744 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 10:37:18.053 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-12 10:37:19.151 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-12 10:37:19.170 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-12 10:37:19.195 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-06-12 10:37:27.492 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2117
+2025-06-12 10:37:39.578 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2117
+2025-06-12 10:37:40.072 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2117
+2025-06-12 10:37:41.208 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2117
+2025-06-12 10:38:27.464 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2117
+2025-06-12 10:39:47.179 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2117
+2025-06-12 10:39:50.255 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2117
+2025-06-12 10:40:14.092 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2117
+2025-06-12 10:53:01.945 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-06-12 11:24:31.167 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-06-12 11:32:20.918 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+2025-06-12 19:56:56.692 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-12 19:56:56.752 [error] Canceled: Canceled
+	at new rCt (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111665)
+	at Hrt.U (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116303)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113795)
+	at Wet.g (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32584)
+	at Wet.executeCommand (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32088)
+	at e.registerCommand.description (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31418)
+	at Wet.h (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33105)
+	at Wet.g (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32181)
+	at Wet.executeCommand (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32088)
+	at Object.executeCommand (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42859)
+	at UG.N [as value] (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:978108)
+	at x.B (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2391)
+	at x.C (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2461)
+	at x.fire (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2678)
+	at Object.f [as dispose] (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:999684)
+	at /tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:1005792)
+	at uZ.<anonymous> (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+	at uZ.dispose (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at uZ.<anonymous> (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:980587)
+	at uZ.dispose (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at Vs (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15464
+	at file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1018
+	at Object.dispose (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at cfe.eb (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12244)
+	at file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10198
+	at Array.map (<anonymous>)
+	at cfe.$ (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10186)
+	at cfe.terminate (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10429)
+	at fbt.terminate (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Zr (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15254)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11782)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-06-12 19:56:56.753 [error] Canceled: Canceled
+	at new rCt (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111665)
+	at Hrt.U (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116303)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113795)
+	at Wet.g (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32584)
+	at Wet.executeCommand (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32088)
+	at e.registerCommand.description (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31418)
+	at Wet.h (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33105)
+	at Wet.g (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32181)
+	at Wet.executeCommand (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32088)
+	at Object.executeCommand (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42859)
+	at set hasGitHubRepositories (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:328629)
+	at /tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:329588
+	at UG.value (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:1096223)
+	at x.B (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2391)
+	at x.C (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2461)
+	at x.fire (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2678)
+	at Object.f [as dispose] (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:999684)
+	at /tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:1005792)
+	at uZ.<anonymous> (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+	at uZ.dispose (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at uZ.<anonymous> (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:980587)
+	at uZ.dispose (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at Vs (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15464
+	at file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1018
+	at Object.dispose (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at cfe.eb (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12244)
+	at file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10198
+	at Array.map (<anonymous>)
+	at cfe.$ (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10186)
+	at cfe.terminate (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10429)
+	at fbt.terminate (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Zr (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15254)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11782)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-06-12 19:56:56.754 [error] Error: Channel has been closed
+	at n (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2439)
+	at Object.appendLine (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2578)
+	at c (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1697520)
+	at t.deactivate (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1699176)
+	at /tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:310368
+	at t.deactivate (/tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:310427)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 2)
+	at async cfe.$ (file:///tmp/.mount_CursoroSZyo1/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10212)
+2025-06-12 19:56:56.760 [info] Extension host with pid 5608 exiting with code 0

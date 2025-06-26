@@ -1,0 +1,5 @@
+2025-06-15 13:46:23.806 [info] Using repo backend url https://repo42.cursor.sh
+2025-06-15 13:46:30.974 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-06-15 13:46:31.698 [info] Using repo backend url https://repo42.cursor.sh
+2025-06-15 13:46:31.698 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-06-15 14:20:50.291 [error] Failed to check if git graph is enabled [aborted] read ECONNRESET

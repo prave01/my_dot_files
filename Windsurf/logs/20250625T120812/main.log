@@ -1,0 +1,10 @@
+2025-06-25 12:08:12.548 [info] update#setState idle
+2025-06-25 12:08:42.552 [info] update#setState checking for updates
+2025-06-25 12:08:42.827 [info] update#setState available for download
+2025-06-25 12:09:24.583 [error] [sudo-prompt] received stderr: /bin/bash: line 1: /usr/lib/electron36/bin/windsurf: No such file or directory
+
+2025-06-25 12:09:31.028 [error] [sudo-prompt] received stderr: /bin/bash: line 1: /usr/lib/electron36/bin/windsurf: No such file or directory
+
+2025-06-25 12:09:43.767 [error] [sudo-prompt] received stderr: /bin/bash: line 1: /usr/lib/electron36/bin/windsurf: No such file or directory
+
+2025-06-25 12:09:48.671 [info] Extension host with pid 51452 exited with code: 0, signal: unknown.

@@ -1,0 +1,23 @@
+2025-06-17 12:14:54.094 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-17 12:14:54.094 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-17 12:14:54.094 [info] Using existing keys for an index
+2025-06-17 12:14:54.094 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-17 12:14:54.144 [info] Using existing keys for an index
+2025-06-17 12:14:54.144 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-17 12:14:54.288 [info] Setting global status from status tracker: synced
+2025-06-17 12:14:54.288 [info] Doing a startup handshake.
+2025-06-17 12:14:55.086 [info] Finished computing merkle tree in 61.571475999999166 ms.
+2025-06-17 12:14:55.087 [info] Doing the initial handshake with hash: 79f692d8fdc6ac5fcafcceac8169c8196ce409e1f2fa4ac3266950b476902ed5
+2025-06-17 12:14:55.098 [info] Computed simhash vector of length: 256
+2025-06-17 12:14:55.098 [info] Path key hash: 964f4be1986894a6982605a50272a02488ce90c8c21d8fea4bc80d3ef7e88b4a
+2025-06-17 12:14:55.098 [info] Handshake start
+2025-06-17 12:14:57.052 [info] Handshake timing: 1959.2305129999986, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"9540230a-9b0c-462f-b97d-abb14bc881a0","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-06-17 12:14:57.052 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"9540230a-9b0c-462f-b97d-abb14bc881a0","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-06-17 12:14:57.053 [info] Starting fast remote sync.
+2025-06-17 12:14:57.053 [info] Total num embeddable files: 19
+2025-06-17 12:14:57.054 [info] Root hash: 79f692d8fdc6ac5fcafcceac8169c8196ce409e1f2fa4ac3266950b476902ed5
+2025-06-17 12:14:57.056 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-06-17 12:14:57.376 [info] Finished indexing repository.
+2025-06-17 12:14:57.376 [info] Indexing job successfully done or aborted.
+2025-06-17 12:15:09.406 [info] multiCodebaseIndexingJob dispose
+2025-06-17 12:15:09.406 [info] Aborting indexing job.

@@ -1,0 +1,5 @@
+2025-06-24 11:50:26.464 [info] Log level: Info
+2025-06-24 11:50:27.690 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-06-24 11:52:58.367 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for prave01/Saitama: Error: No GitHub authentication session available.
+2025-06-24 11:53:03.704 [info] Log level: Info
+2025-06-24 11:53:04.295 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

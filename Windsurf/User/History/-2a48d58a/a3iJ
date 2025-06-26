@@ -1,0 +1,3 @@
+PORT=3000
+JWT_SECRET=your-secret-key
+MONGODB_URI="mongodb+srv://praveen10:praveen10@cluster0.yk0vavq.mongodb.net/spares_management?retryWrites=true&w=majority&appName=Cluster0"

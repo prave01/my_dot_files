@@ -1,0 +1,8 @@
+# MongoDB Connection String
+MONGODB_URI=mongodb+srv://praveen10:praveen10@cluster0.yk0vavq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+# JWT Secret (generate a random secret)
+JWT_SECRET=your-super-secret-jwt-key-here
+
+# Node Environment
+NODE_ENV=production

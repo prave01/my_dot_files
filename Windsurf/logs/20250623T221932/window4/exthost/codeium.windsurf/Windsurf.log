@@ -1,0 +1,40 @@
+2025-06-24 00:57:17.956 [info] 2025/06/24 00:57:17 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-06-24 00:57:18.180 [info] I0624 00:57:18.179785 240991 main.go:602] Setting GOMAXPROCS to 4
+2025-06-24 00:57:18.180 [info] I0624 00:57:18.179913 240991 main.go:817] Starting language server process with pid 240991
+2025-06-24 00:57:18.180 [info] I0624 00:57:18.180040 240991 server.go:292] Language server will attempt to listen on host 127.0.0.1
+2025-06-24 00:57:18.180 [info] I0624 00:57:18.180216 240991 server.go:299] Language server listening on random port at 35557
+2025-06-24 00:57:18.996 [info] I0624 00:57:18.996119 240991 server.go:420] Created extension server client at port 43673
+2025-06-24 00:57:19.325 [info] I0624 00:57:19.325141 240991 server.go:948] Local search is enabled, will index local files.
+2025-06-24 00:57:19.325 [info] I0624 00:57:19.325171 240991 server.go:952] Using 2 indexer workers
+2025-06-24 00:57:20.666 [info] (Windsurf) 2025-06-24 00:57:20.662 [INFO]: Language server started
+2025-06-24 00:57:21.115 [info] (Windsurf) 2025-06-24 00:57:21.115 [INFO]: LS lspClient started successfully
+2025-06-24 00:57:21.425 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-06-24 00:57:21.426 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-06-24 00:57:21.426 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-06-24 00:57:24.970 [info] (Windsurf) 2025-06-24 00:57:24.969 [INFO]: [Terminal] Command completed: clear exit code 0
+2025-06-24 00:57:31.936 [info] (Windsurf) 2025-06-24 00:57:31.936 [INFO]: [Terminal] Command completed: git remote -v exit code 0
+2025-06-24 00:57:36.031 [info] (Windsurf) 2025-06-24 00:57:36.030 [INFO]: [Terminal] Command completed: git init exit code 0
+2025-06-24 00:57:37.388 [info] (Windsurf) 2025-06-24 00:57:37.388 [INFO]: [Terminal] Command completed: clear exit code 0
+2025-06-24 00:57:59.561 [info] (Windsurf) 2025-06-24 00:57:59.561 [INFO]: [Terminal] Command completed: git remote add origin https://github.com/prave01/Inventory-app-new/ exit code 0
+2025-06-24 00:58:01.134 [info] (Windsurf) 2025-06-24 00:58:01.133 [INFO]: [Terminal] Command completed: clear exit code 0
+2025-06-24 00:58:05.421 [info] (Windsurf) 2025-06-24 00:58:05.421 [INFO]: [Terminal] Command completed: git push exit code 128
+2025-06-24 00:58:25.965 [info] (Windsurf) 2025-06-24 00:58:25.965 [INFO]: [Terminal] Command completed: git push --set-upstream origin main exit code 1
+2025-06-24 00:58:36.894 [info] (Windsurf) 2025-06-24 00:58:36.894 [INFO]: [Terminal] Command completed: git remote -v exit code 0
+2025-06-24 00:58:39.273 [info] (Windsurf) 2025-06-24 00:58:39.273 [INFO]: [Terminal] Command completed: git push exit code 128
+2025-06-24 00:58:51.904 [info] (Windsurf) 2025-06-24 00:58:51.903 [INFO]: [Terminal] Command completed: git push --set-upstream origin main exit code 1
+2025-06-24 00:58:59.738 [info] (Windsurf) 2025-06-24 00:58:59.738 [INFO]: [Terminal] Command completed: git push --set-upstream origin main exit code 1
+2025-06-24 00:59:19.882 [info] (Windsurf) 2025-06-24 00:59:19.882 [INFO]: [Terminal] Command completed: git push -f exit code 128
+2025-06-24 00:59:31.401 [info] (Windsurf) 2025-06-24 00:59:31.401 [INFO]: [Terminal] Command completed: git push -f --set-upstream origin main exit code 0
+2025-06-24 00:59:33.036 [info] (Windsurf) 2025-06-24 00:59:33.035 [INFO]: [Terminal] Command completed: clear exit code 0
+2025-06-24 00:59:35.439 [info] (Windsurf) 2025-06-24 00:59:35.439 [INFO]: [Terminal] Command completed: git status exit code 0
+2025-06-24 01:00:58.014 [info] (Windsurf) 2025-06-24 01:00:58.014 [INFO]: [Terminal] Command completed: npm run db:push exit code 127
+2025-06-24 01:01:09.356 [info] W0624 01:01:09.356383 240991 workspace_manager.go:491] Too many changes in DidChangeWatchedFiles: 6941
+2025-06-24 01:01:14.154 [info] W0624 01:01:14.154509 240991 workspace_manager.go:491] Too many changes in DidChangeWatchedFiles: 11000
+2025-06-24 01:01:15.447 [info] W0624 01:01:15.447558 240991 workspace_manager.go:491] Too many changes in DidChangeWatchedFiles: 2882
+2025-06-24 01:01:22.097 [info] (Windsurf) 2025-06-24 01:01:22.097 [INFO]: [Terminal] Command completed: npm install exit code 0
+2025-06-24 01:02:53.337 [info] E0624 01:02:53.336914 240991 interceptor.go:73] /exa.language_server_pb.LanguageServerService/HandleStreamingCommand (unknown): invalid position offset 159: offset 159 out of range [0, 121]
+2025-06-24 01:03:03.814 [info] I0624 01:03:03.808538 240991 server.go:1411] Exit requested on language server process 240991
+2025-06-24 01:03:03.814 [info] I0624 01:03:03.808677 240991 server.go:1384] Language server shutting down

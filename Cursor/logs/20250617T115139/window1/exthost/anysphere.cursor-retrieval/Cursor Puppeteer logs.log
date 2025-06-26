@@ -1,0 +1,22 @@
+2025-06-17 11:51:51.155 [error] Failed to initialize Puppeteer browser: Cannot find module 'puppeteer'
+Require stack:
+- /tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js
+- /tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+2025-06-17 11:51:51.155 [error] Error: Cannot find module 'puppeteer'
+Require stack:
+- /tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js
+- /tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1219:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16068)
+	at t._resolveFilename (file:///tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:187:23922)
+	at Module._load (node:internal/modules/cjs/loader:1050:27)
+	at c._load (node:electron/js2c/node_init:2:16955)
+	at i._load (file:///tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11045)
+	at t._load (file:///tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:187:23640)
+	at s._load (file:///tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:179:21717)
+	at Module.require (node:internal/modules/cjs/loader:1305:19)
+	at require (node:internal/modules/helpers:182:18)
+	at 40758 (/tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:3194699)
+	at n (/tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:3934890)
+	at /tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:2685894
+	at async t.PuppeteerService.initializeBrowser (/tmp/.mount_CursorbWFFWj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:2685858)

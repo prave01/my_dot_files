@@ -1,0 +1,32 @@
+2025-06-23 19:11:29.408 [info] Extension host with pid 7378 started
+2025-06-23 19:11:29.526 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-23 19:11:29.595 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-06-23 19:11:30.158 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-23 19:11:30.163 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-23 19:11:30.178 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-23 19:11:30.321 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-23 19:11:30.452 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-23 19:11:31.366 [info] ExtensionService#_doActivateExtension codeium.windsurf, startup: true, activationEvent: '*'
+2025-06-23 19:11:32.470 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-23 19:11:32.496 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at yl (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1218)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:114542
+	at Array.forEach (<anonymous>)
+	at qA.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:114482)
+	at cte.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10232)
+	at Zx.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at _s (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:5722)
+	at MessagePortMain.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:2262)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) 
+2025-06-23 19:11:32.512 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new t2 (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113090)
+	at qA.U (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117701)
+	at s.<computed>.r.charCodeAt.s.<computed> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115195)
+	at lI.resolveProxy (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:56208)
+	at Object.resolveProxy (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:21118)
+	at useProxySettings (/usr/share/windsurf/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /usr/share/windsurf/resources/app/node_modules/@vscode/proxy-agent/out/index.js:119:13
+	at /usr/share/windsurf/resources/app/node_modules/@vscode/proxy-agent/out/index.js:707:13 
+2025-06-23 19:11:32.527 [info] Extension host with pid 7378 exiting with code 0

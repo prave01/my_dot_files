@@ -1,0 +1,195 @@
+2025-06-24 01:03:18.163 [info] Extension host with pid 245816 started
+2025-06-24 01:03:18.163 [info] Skipping acquiring lock for /home/thorfinn/.config/Windsurf/User/workspaceStorage/64073811c53fa89340d8288dafc655cc.
+2025-06-24 01:03:18.505 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-24 01:03:18.640 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-24 01:03:18.647 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-06-24 01:03:18.716 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-24 01:03:18.792 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-24 01:03:19.008 [info] ExtensionService#_doActivateExtension codeium.windsurf, startup: true, activationEvent: '*'
+2025-06-24 01:03:19.868 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-24 01:03:19.893 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-24 01:03:20.003 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-24 01:03:24.870 [info] Eager extensions activated
+2025-06-24 01:03:24.881 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-24 01:03:24.885 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-24 01:03:24.909 [info] ExtensionService#_doActivateExtension Codeium.windsurf-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-06-24 01:03:24.917 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-06-24 01:03:25.068 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2025-06-24 01:03:25.459 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-24 01:08:46.852 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-24 01:11:02.252 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-24 01:14:44.630 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/thorfinn/MongoAuthManager%281%29/MongoAuthManager/vite.config.ts
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856441)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856837)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3863488)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3462828
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3861824)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3849687)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-06-24 01:15:11.237 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/thorfinn/MongoAuthManager%281%29/MongoAuthManager/package.json
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856441)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856837)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3863488)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3462828
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3861824)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3849687)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-06-24 01:18:39.286 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/thorfinn/MongoAuthManager%281%29/MongoAuthManager/tailwind.config.ts
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856441)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856837)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3863488)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3462828
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3861824)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3849687)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-06-24 01:20:49.771 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/thorfinn/MongoAuthManager%281%29/MongoAuthManager/vite.config.ts
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856441)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856837)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3863488)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3462828
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3861824)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3849687)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-06-24 01:22:39.983 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/thorfinn/MongoAuthManager%281%29/MongoAuthManager/vite.config.ts
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856441)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856837)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3863488)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3462828
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3861824)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3849687)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-06-24 01:22:47.621 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/thorfinn/MongoAuthManager%281%29/MongoAuthManager/vite.config.ts
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856441)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856837)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3863488)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3462828
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3861824)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3849687)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-06-24 01:23:06.430 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/thorfinn/MongoAuthManager%281%29/MongoAuthManager/tailwind.config.ts
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856441)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856837)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3863488)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3462828
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3861824)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3849687)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-06-24 01:25:15.658 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/thorfinn/MongoAuthManager%281%29/MongoAuthManager/tailwind.config.ts
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856441)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856837)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3863488)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3462828
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3861824)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3849687)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-06-24 01:27:16.023 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/thorfinn/MongoAuthManager%281%29/MongoAuthManager/tailwind.config.ts
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856441)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3856837)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3863488)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3462828
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3861824)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3849687)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-06-24 01:31:01.648 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-24 01:31:01.715 [error] TypeError: r.some is not a function
+	at h.saveToDisk (/home/thorfinn/.windsurf/extensions/vscodevim.vim-1.30.1-universal/out/extension.js:2:642157)
+	at t.deactivate (/home/thorfinn/.windsurf/extensions/vscodevim.vim-1.30.1-universal/out/extension.js:2:769030)
+	at cte.eb (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11874)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10024
+	at Array.map (<anonymous>)
+	at cte.$ (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10012)
+	at cte.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10255)
+	at Zx.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at _s (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:5722)
+	at MessagePortMain.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:2262)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-06-24 01:31:01.717 [error] Canceled: Canceled
+	at new t2 (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113090)
+	at qA.U (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117701)
+	at s.<computed>.r.charCodeAt.s.<computed> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115195)
+	at CI.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40984)
+	at CI.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at i.registerCommand.description (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:39818)
+	at CI.h (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:41504)
+	at CI.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40581)
+	at CI.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at Object.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:39981)
+	at Eg.L [as value] (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:514222)
+	at y.B (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at y.C (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at y.fire (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at Object.g [as dispose] (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:536862)
+	at /usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543180
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543166)
+	at hb.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at hb.<anonymous> (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:516706)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at On (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:15142
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at cte.eb (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12069)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10024
+	at Array.map (<anonymous>)
+	at cte.$ (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10012)
+	at cte.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10255)
+	at Zx.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at _s (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:5722)
+	at MessagePortMain.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:2262)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-06-24 01:31:01.718 [error] Canceled: Canceled
+	at new t2 (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113090)
+	at qA.U (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117701)
+	at s.<computed>.r.charCodeAt.s.<computed> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115195)
+	at CI.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40984)
+	at CI.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at i.registerCommand.description (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:39818)
+	at CI.h (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:41504)
+	at CI.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40581)
+	at CI.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at Object.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:39981)
+	at set hasGitHubRepositories (/usr/share/windsurf/resources/app/extensions/github/dist/extension.js:2:217807)
+	at /usr/share/windsurf/resources/app/extensions/github/dist/extension.js:2:218766
+	at Eg.value (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:634408)
+	at y.B (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at y.C (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at y.fire (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at Object.g [as dispose] (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:536862)
+	at /usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543180
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543166)
+	at hb.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at hb.<anonymous> (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:516706)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at On (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:15142
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at cte.eb (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12069)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10024
+	at Array.map (<anonymous>)
+	at cte.$ (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10012)
+	at cte.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10255)
+	at Zx.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at _s (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:5722)
+	at MessagePortMain.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:2262)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-06-24 01:31:01.721 [info] Extension host with pid 245816 exiting with code 0

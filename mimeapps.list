@@ -1,0 +1,15 @@
+[Default Applications]
+x-scheme-handler/obsidian=obsidian.desktop
+x-scheme-handler/http=firefox.desktop
+application/xhtml+xml=firefox.desktop
+text/html=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+image/jpeg=swappy.desktop
+image/png=swappy.desktop
+
+[Added Associations]
+x-scheme-handler/http=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+text/html=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+image/png=swappy.desktop;

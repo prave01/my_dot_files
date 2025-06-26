@@ -1,0 +1,19 @@
+2025-06-21 12:08:39.798 [info] [main] Log level: Info
+2025-06-21 12:08:39.798 [info] [main] Validating found git in: "git"
+2025-06-21 12:08:39.798 [info] [main] Using git "2.49.0" from "git"
+2025-06-21 12:08:39.798 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-21 12:08:39.798 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-21 12:08:41.710 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2025-06-21 12:08:41.710 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-06-21 12:08:41.740 [info] > git rev-parse --verify origin/main [7ms]
+2025-06-21 12:08:41.740 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-06-21 12:08:41.759 [info] > git rev-parse --verify origin/master [3ms]
+2025-06-21 12:08:41.759 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-06-21 12:08:41.777 [info] > git rev-parse --verify origin/develop [3ms]
+2025-06-21 12:08:41.777 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-06-21 12:08:41.798 [info] > git branch -r [4ms]
+2025-06-21 12:08:41.798 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-06-21 12:08:41.819 [info] > git config --get init.defaultBranch [5ms]
+2025-06-21 12:08:49.778 [info] > git config --global user.name [5ms]
+2025-06-21 12:08:49.803 [info] > git config --global user.email [5ms]
+2025-06-21 12:08:49.803 [info] [main] Stored git author name in global state: prave01 <praveenthanikachalam408@gmail.com>

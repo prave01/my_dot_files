@@ -1,0 +1,14 @@
+2025/06/11-19:41:40.623 38ca6 Reusing MANIFEST /home/thorfinn/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_jobs.weekday.works_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/11-19:41:40.624 38ca6 Recovering log #32
+2025/06/11-19:41:40.624 38ca6 Reusing old log /home/thorfinn/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_jobs.weekday.works_0.indexeddb.leveldb/000032.log 
+2025/06/11-19:41:40.624 38ca6 Delete type=2 #30
+2025/06/11-19:41:40.632 38ca8 Level-0 table #37: started
+2025/06/11-19:41:40.633 38ca8 Level-0 table #37: 932 bytes OK
+2025/06/11-19:41:40.634 38ca8 Delete type=0 #32
+2025/06/11-19:41:40.635 38ca6 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x00\x00\x05' @ 495 : 1
+2025/06/11-19:41:40.635 38ca6 Compacting 1@0 + 1@1 files
+2025/06/11-19:41:40.636 38ca6 Generated table #38@0: 68 keys, 1202 bytes
+2025/06/11-19:41:40.636 38ca6 Compacted 1@0 + 1@1 files => 1202 bytes
+2025/06/11-19:41:40.637 38ca6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/11-19:41:40.637 38ca6 Delete type=2 #37
+2025/06/11-19:41:40.637 38ca6 Manual compaction at level-0 from '\x00\x0f\x00\x00\x05' @ 495 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)

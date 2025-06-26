@@ -1,0 +1,21 @@
+2025-06-26 00:43:33.573 [info] 2025/06/26 00:43:33 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-06-26 00:43:33.806 [info] I0626 00:43:33.806250 471466 main.go:602] Setting GOMAXPROCS to 4
+2025-06-26 00:43:33.806 [info] I0626 00:43:33.806566 471466 main.go:817] Starting language server process with pid 471466
+2025-06-26 00:43:33.806 [info] I0626 00:43:33.806713 471466 server.go:292] Language server will attempt to listen on host 127.0.0.1
+2025-06-26 00:43:33.807 [info] I0626 00:43:33.806906 471466 server.go:299] Language server listening on random port at 33835
+2025-06-26 00:43:34.697 [info] I0626 00:43:34.696734 471466 server.go:420] Created extension server client at port 46861
+2025-06-26 00:43:35.064 [info] I0626 00:43:35.063760 471466 server.go:948] Local search is enabled, will index local files.
+2025-06-26 00:43:35.064 [info] I0626 00:43:35.063788 471466 server.go:952] Using 2 indexer workers
+2025-06-26 00:43:36.213 [info] (Windsurf) 2025-06-26 00:43:36.208 [INFO]: Language server started
+2025-06-26 00:43:36.453 [info] (Windsurf) 2025-06-26 00:43:36.453 [INFO]: LS lspClient started successfully
+2025-06-26 00:43:36.904 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-06-26 00:43:36.904 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-06-26 00:43:36.905 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-06-26 00:44:07.895 [info] (Windsurf) 2025-06-26 00:44:07.894 [INFO]: [Cascade Manager] Opening diff zones for: 
+2025-06-26 00:46:38.246 [info] (Windsurf) 2025-06-26 00:46:38.246 [INFO]: [Terminal] Command completed: cp /home/thorfinn/.config/nvim/init.lua /home/thorfinn/.config/nvim/init.lua.bak exit code 0
+2025-06-26 00:47:16.080 [info] (Windsurf) 2025-06-26 00:47:16.080 [INFO]: [Cascade Manager] Opening diff zones for: fix_lsp.lua
+2025-06-26 00:47:46.500 [info] (Windsurf) 2025-06-26 00:47:46.500 [INFO]: [Terminal] Command completed: lua /tmp/fix_lsp.lua exit code 1
+2025-06-26 00:48:20.618 [info] E0626 00:48:20.618073 471466 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///tmp/fix_lsp.lua

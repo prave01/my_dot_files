@@ -1,0 +1,5 @@
+2025-06-23 21:07:38.706 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-23 21:07:38.706 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-23 21:07:49.262 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-23 21:07:49.262 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-23 21:07:49.609 [info] Skipping PR indexing as user has opted out via configuration
