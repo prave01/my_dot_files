@@ -1,0 +1,21 @@
+
+# Run `ghostty +show-config --default --docs` to view a list of
+
+
+## Terminal inner padding
+window-padding-x = 10
+window-padding-y = 10
+
+## Theme
+theme = ayu
+background-opacity = 0.6
+background-blur = true
+
+## Font Config
+font-family = JetBrainsMonoNL NF ExtraBold
+font-size = 18
+
+#Shader
+#custom-shader = ghostty-shaders/in-game-crt.glsl
+
+#resize-overlay-duration = 4s 200ms
