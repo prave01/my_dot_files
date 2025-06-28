@@ -3,7 +3,7 @@ return {
   config = function()
     require("lspsaga").setup({
       ui = {
-        border = "double",
+        border = "single",
         title = true,
         code_action = "💀",
       },
