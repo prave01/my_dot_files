@@ -1,9 +1,0 @@
-2025/06/23-20:52:04.199 10237 Reusing MANIFEST /home/thorfinn/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
-2025/06/23-20:52:04.200 10237 Recovering log #106
-2025/06/23-20:52:04.219 10237 Reusing old log /home/thorfinn/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/000106.log 
-2025/06/23-21:07:05.600 10236 Compacting 1@1 + 1@2 files
-2025/06/23-21:07:05.613 10236 Generated table #110@1: 9 keys, 54348 bytes
-2025/06/23-21:07:05.613 10236 Compacted 1@1 + 1@2 files => 54348 bytes
-2025/06/23-21:07:05.614 10236 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/06/23-21:07:05.614 10236 Delete type=2 #101
-2025/06/23-21:07:05.614 10236 Delete type=2 #108
