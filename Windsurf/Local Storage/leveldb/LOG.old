@@ -1,6 +1,0 @@
-2025/06/25-12:08:12.389 c88a Reusing MANIFEST /home/thorfinn/.config/Windsurf/Local Storage/leveldb/MANIFEST-000001
-2025/06/25-12:08:12.403 c88a Recovering log #1259
-2025/06/25-12:08:12.404 c88a Reusing old log /home/thorfinn/.config/Windsurf/Local Storage/leveldb/001259.log 
-2025/06/25-12:09:12.407 c88b Level-0 table #1264: started
-2025/06/25-12:09:12.409 c88b Level-0 table #1264: 25689 bytes OK
-2025/06/25-12:09:12.410 c88b Delete type=0 #1259

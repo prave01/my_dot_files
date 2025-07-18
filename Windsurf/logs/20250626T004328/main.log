@@ -1,6 +1,0 @@
-2025-06-26 00:43:29.007 [info] update#setState idle
-2025-06-26 00:43:58.993 [info] update#setState checking for updates
-2025-06-26 00:43:59.366 [info] update#setState available for download
-2025-06-26 01:02:09.292 [error] [sudo-prompt] received stderr: /bin/bash: line 1: /usr/lib/electron36/bin/windsurf: No such file or directory
-
-2025-06-26 01:03:03.942 [info] Extension host with pid 471330 exited with code: 0, signal: unknown.
