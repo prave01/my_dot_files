@@ -13,8 +13,21 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
     os.exit(1)
   end
 end
+
 -- Keybindings Import
 require("plugins.keybindings.tab_nav").setup()
+
+vim.api.nvim_create_autocmd({ "WinScrolled", "BufEnter" }, {
+  callback = function()
+    vim.wo.cursorline = false
+  end,
+})
+
+vim.api.nvim_create_autocmd("CursorMoved", {
+  callback = function()
+    vim.wo.cursorline = true
+  end,
+})
 
 vim.opt.rtp:prepend(lazypath)
 
@@ -82,7 +95,18 @@ local lsp_kind = require("plugins.lsp.lsp_kind") --(_Gives Vscode like pictogram
 local git_config = require("plugins.git_conf") --(_Vscode like Git functionalities_)
 
 -- Buffer Line
-local buffer_line = require("plugins.buffer_line") --(_Buffer line and open-tabs_)
+--local buffer_line = require("plugins.buffer_line") --(_Buffer line and open-tabs_)
+
+-- Greetings page by AlphaNeo
+local alpha_neo = require("plugins.alpha_neovim") --(_Alpha_neovim)
+
+-- Tailwind css colorize auto attach
+vim.api.nvim_create_autocmd({ "BufReadPost", "BufNewFile" }, {
+  pattern = { "*.html", "*.tsx", "*.jsx", "*.ts", "*.js", "*.vue", "*.svelte" },
+  callback = function()
+    vim.cmd("TailwindColorsAttach")
+  end,
+})
 
 require("lazy").setup({
 
@@ -111,4 +135,6 @@ require("lazy").setup({
   git_config,  -- Including Git-config ✅
 
   buffer_line, -- Including Buffer-line ✅
+
+  alpha_neo,   -- Including Alpha-Neo ✅
 })

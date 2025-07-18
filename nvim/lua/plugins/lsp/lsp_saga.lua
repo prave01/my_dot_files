@@ -5,7 +5,7 @@ return {
       ui = {
         border = "single",
         title = true,
-        code_action = "💀",
+        code_action = ""
       },
       symbol_in_winbar = {
         enable = true,
